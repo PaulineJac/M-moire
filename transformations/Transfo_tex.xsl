@@ -180,9 +180,19 @@
 		\end{Rightside}</xsl:text>
     </xsl:template>
     <xsl:template match="lg[@type = 'stanza']">
-        <xsl:text>\stanza</xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text>\&amp;</xsl:text>
+        <xsl:text>\stanza </xsl:text>
+        <xsl:for-each select="./l">
+            <xsl:choose>
+                <xsl:when test="position()=last()">
+                    <xsl:text>
+                    </xsl:text><xsl:apply-templates/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/><xsl:text> &amp;</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+        <xsl:text> \&amp;</xsl:text>
     </xsl:template>
     <!-- Pourquoi ce code n'est-il pas appliqué ? -->
     <xsl:template match="lg[@type='stanza']/@source">
@@ -193,7 +203,7 @@
     <xsl:template match="l">
         <xsl:apply-templates/>
         <xsl:if test="position() != last()"> <!-- Cela ne fonctionne pas ... d'identification du noeud et d'espace en trop ... -->
-            <xsl:text>&amp;</xsl:text>
+            <xsl:text>&amp;*********************</xsl:text>
         </xsl:if>
     </xsl:template>
     <xsl:template match="title[@xml:lang = 'grc']">
