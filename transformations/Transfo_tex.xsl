@@ -185,7 +185,7 @@
         <xsl:text>\&amp;</xsl:text>
     </xsl:template>
     <!-- Pourquoi ce code n'est-il pas appliqué ? -->
-    <xsl:template match="/TEI/text/body/div/div[@type = 'latino_scriptum']/lg[@type = 'stanza']">
+    <xsl:template match="lg[@type='stanza']/@source">
         <xsl:text>\ledsidenote{\color{gray}{\textbf{\vspace{-0,5cm}</xsl:text>
         <xsl:value-of select="@source"/>
         <xsl:text>}}}</xsl:text>
@@ -199,7 +199,7 @@
     <xsl:template match="title[@xml:lang = 'grc']">
         <xsl:text>\tg{\textit{</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>}</xsl:text>
+        <xsl:text>}}</xsl:text>
     </xsl:template>
     <xsl:template match="ref">
         <xsl:text>\cite{</xsl:text>
