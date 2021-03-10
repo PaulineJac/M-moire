@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Corpus sélectionné des fragments de tragédies de l'époque républicaine</title>
+            <editor>
+               <forename>Pauline</forename>
+               <surname>Jacsont</surname>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>UniNE</orgName>
+               <address>
+                  <addrLine>Espace Tilo-Frey 1</addrLine>
+                  <postCode>2000</postCode>
+                  <settlement>Neuchâtel</settlement>
+                  <country>Suisse</country>
+               </address>
+            </publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution 4.0 Generic
+                  (CC BY NC SA 2.0)</licence>
+            </availability>
+            <date when="2021-02-20">20/02/2020</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl>
+                  <author>Ribbeck, Otto</author>
+                  <title>II : Tragicorum romanorum fragmenta</title>
+                  <pubPlace>Leipzig</pubPlace>
+                  <publisher>Teubner</publisher>
+                  <date corresp="ed.1" xml:id="Ribbeck1" when="1852">1852</date>
+                  <date corresp="ed.2" xml:id="Ribbeck2" when="1871">1871</date>
+                  <date corresp="ed.3" xml:id="Ribbeck3" when="1897">1897</date>
+               </bibl>
+               <bibl xml:id="TrRF_I_2012">
+                  <author>Markus Schauer</author>
+                  <title>Livius Andronicus, Naevius, Tragici Minores, Fragmenta Adespota</title>
+                  <pubPlace>Göttingen</pubPlace>
+                  <publisher>Vandenhoeck und Ruprecht</publisher>
+                  <date when="2012">2012</date>
+               </bibl>
+               <bibl>
+                  <author>Spaltenstein, François</author>
+                  <title>Commentaire des fragments dramatiques de Naevius</title>
+                  <pubPlace>Bruxelle</pubPlace>
+                  <publisher>Collection Latomus</publisher>
+                  <date when="2014">2014</date>
+               </bibl>
+               <bibl>
+                  <author n="1">Goldberg, Sander</author>
+                  <author n="2">Manuwald, Gesine</author>
+                  <title>Fragmentary republican latin, Ennius : Dramatic Fragments ; minor
+                     works</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Harvard University Press : Loeb Classical Library</publisher>
+                  <date when="2018">2018</date>
+               </bibl>
+               <bibl>
+                  <author>Schierl, Petra</author>
+                  <title>Die Tragödien des Pacuvius</title>
+                  <pubPlace>Berlin</pubPlace>
+                  <publisher>De Gruyter</publisher>
+                  <date when="2006">2006</date>
+               </bibl>
+               <bibl>
+                  <author>Dangel, Jacqueline</author>
+                  <title>Accius: Oeuvres (fragments)</title>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Les Belles Lettres</publisher>
+                  <date when="1995">1995</date>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les choix de corrections et de reconstruction correspondent aux études les plus
+                  récentes qui s'appuient sur les éditions de Ribbeck. Les mots et les lettres
+                  ajoutés seront signalés par des crochets, et les passages jugés corrompus et
+                  inintelligibles seront indiqués par deux obèles les délimitant. Les lacunes de
+                  textes, qu’elles soient supposées par l'éditeur ou présentes dans la tradition
+                  manuscrite, seront notées par des points de suspension. </p>
+            </correction>
+            <normalization>
+               <p>Les lettres i et I traduiront, selon le contexte, les sons <g type="lbrack">[</g>i, j,
+                  ӡ<g type="rbrack">]</g>, les lettres u et V les sons [v, w] et la lettre y pour le son [y]. Utilisation des
+                  ligatures pour les diphtongues.</p>
+            </normalization>
+            <punctuation>
+               <p>La ponctuation du texte latin correspondra à celle du français.</p>
+            </punctuation>
+         </editorialDecl>
+         <appInfo>
+            <application version="20" ident="Pie" when="2021">
+               <label>Pie</label>
+               <ptr target="https://github.com/emanjavacas/pie"/>
+            </application>
+            <application version="20" ident="pie_extended" when="2021">
+               <label>nlp-pie-taggers</label>
+               <ptr target="https://github.com/hipster-philology/nlp-pie-taggers"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">latin</language>
+            <language ident="fr">français</language>
+            <language ident="grc">grec ancien</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="auctor" xml:id="Livius">
+            <head>Livius Andronicus</head>
+            <p>Texte latin établi et organisé selon les choix de reconstruction et d'édition de <ref
+               source="TrRF_I_2012"/>.</p>
+            <div type="fabula" xml:id="Liv_Egisthe">
+               <head>Égisthe</head>
+               <argument><p>Source hellène : Sophocle <title xml:lang="grc">Αἴγισθος</title>, Eschyle <title
+                     xml:lang="grc">Όρεστεια</title>.</p>
+               <p> L'intrigue est proche de l'<title xml:lang="grc">Άγαμέμνων</title> d'Eschyle et
+                  de la version latine de Sénèque: elle se concentre donc sur l'assassinat
+                  d'Agamemnon par Égisthe et Clytemnestre.</p></argument>
+              <div type ="fragmenta"> 
+                 <div type="latino_scriptum" xml:lang="la">
+                  <sp>
+                     <lg type="stanza" source="Non.512"><!-- /!\ -->
+                        <l><w lemma="nam" pos="CONcoo" msd="MORPH=empty">Nam</w>
+                           <w lemma="ut1" pos="ADVrel" msd="MORPH=empty">ut</w>
+                           <w lemma="Pergama" pos="NOMpro" msd="Case=Acc|Numb=Plur|Gend=Neut"
+                              >Pergama</w></l>
+                        <l>
+                           <w lemma="accendo" pos="VER"
+                              msd="Case=Nom|Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                              >accensa</w>
+                           <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                           <w lemma="praeda" pos="NOMcom" msd="Case=Nom|Numb=Sing">præda</w>
+                           <w lemma="per" pos="PRE" msd="MORPH=empty">per</w>
+                           <w lemma="particeps1" pos="NOMcom" msd="Case=Acc|Numb=Plur"
+                              >participes</w>
+                           <w lemma="aeque" pos="ADV" msd="Deg=Pos">æquiter</w></l>
+                        <l><w lemma="partior" pos="VER"
+                              msd="Case=Nom|Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                              >partita</w>
+                           <w lemma="sum1" pos="VER"
+                              msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">est</w>.</l>
+                        <!-- /!\ il faudrait cette endroit qu'une seule balise \&amp; alors qu'avec mon code il y une balise & et \& -->
+                     </lg>
+                     <lg type="stanza" source="Non.335,21">
+                        <l><w lemma="tum" pos="ADV" msd="Deg=Pos">Tum</w>
+                           <w lemma="autem" pos="CONcoo" msd="MORPH=empty">autem</w>
+                           <w lemma="lasciuus" pos="ADJqua"
+                              msd="Case=Nom|Numb=Sing|Gend=Neut|Deg=Pos">lasciuum</w>
+                           <w lemma="Nereus" pos="NOMpro" msd="Case=Gen|Numb=Sing|Gend=Masc"
+                              >Nerei</w>
+                           <w lemma="simus" pos="NOMcom" msd="Case=Acc|Numb=Sing">simum</w>
+                           <w lemma="pecus1" pos="NOMcom" msd="Case=Acc|Numb=Sing">pecus</w></l>
+                        <l><w lemma="ludo" pos="VER"
+                              msd="Case=Nom|Numb=Sing|Gend=Com|Mood=Par|Tense=Pres|Voice=Act"
+                              >ludens</w>
+                           <w lemma="ad2" pos="PRE" msd="MORPH=empty">ad</w>
+                           <w lemma="cantus" pos="NOMcom" msd="Case=Acc|Numb=Sing">cantum</w>
+                           <w lemma="classis" pos="NOMcom" msd="Case=Acc|Numb=Sing">classem</w>
+                           <w lemma="lustro2" pos="VER"
+                              msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Pass|Person=3"
+                           >lustratur</w>...</l>
+                     </lg>
+                     <lg type="stanza" source="Non.166,29">
+                        <l><w lemma="nemo" pos="PROind" msd="Case=Nom|Numb=Sing">Nemo</w>
+                           <w lemma="hic1" pos="PROdem" msd="Case=Nom|Numb=Sing|Gend=Fem|Deg=Pos"
+                              >hæce</w>
+                           <w lemma="uos" pos="PROper" msd="Case=Gen|Numb=Plur">uostrum</w>
+                           <w lemma="rumino" pos="VER"
+                              msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Pass|Person=3">ruminetur</w>
+                           <w lemma="mulier" pos="NOMcom" msd="Case=Dat|Numb=Sing">mulieri</w>.</l>
+                     </lg>
+                     <lg type="stanza" source="Non.176,13">
+                        <l>...<w lemma="sollemniter" pos="ADV" msd="Deg=Pos">Sollemnitusque</w>
+                           <w lemma="que" pos="CON" msd="MORPH=empty">{Sollemnitusque}</w>
+                           <w lemma="deus" pos="NOMcom" msd="Case=Dat|Numb=Sing">deo</w>
+                           <w lemma="lito" pos="VER"
+                              msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">litat</w>
+                           <w lemma="laus" pos="NOMcom" msd="Case=Acc|Numb=Sing">laudem</w>
+                           <w lemma="libens" pos="ADJqua" msd="Case=Nom|Numb=Sing|Gend=Com|Deg=Pos"
+                              >lubens</w>.</l>
+                     </lg>
+                     <lg type="stanza" source="Non.127,30">
+                        <l>... <w lemma="in" pos="PRE" msd="MORPH=empty">in</w>
+                           <w lemma="sedes" pos="NOMcom" msd="Case=Acc|Numb=Plur">sedes</w>
+                           <w lemma="colloco" pos="VER"
+                              msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">conlocat</w>
+                           <w lemma="sui1" pos="PROref" msd="Case=Acc|Numb=Sing">se</w>
+                           <w lemma="regius" pos="ADJqua" msd="Case=Acc|Numb=Plur|Gend=Fem|Deg=Pos"
+                              >regias</w>:</l>
+                        <l><w lemma="Clytaemnestra" pos="NOMpro" msd="Case=Nom|Numb=Sing|Gend=Fem"
+                              >Clytemnestra</w>
+                           <w lemma="iuxtim" pos="ADV" msd="Deg=Pos">iuxtim</w>
+                           <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                           <w lemma="tertius" pos="ADJord" msd="Case=Acc|Numb=Plur|Gend=Fem|Deg=Pos"
+                              >tertias</w>
+                           <w lemma="nata" pos="NOMcom" msd="Case=Nom|Numb=Plur">natæ</w>
+                           <w lemma="occupo2" pos="VER"
+                              msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                           >occupant</w>.</l>
+                     </lg>
+                     <lg type="stanza" source="Non.110,29">
+                        <l><w lemma="ipse" pos="PROdem" msd="Case=Nom|Numb=Sing|Gend=Masc">Ipsus</w>
+                           <w lemma="sui1" pos="PROref" msd="Case=Acc|Numb=Sing">se</w>
+                           <w lemma="in" pos="PRE" msd="MORPH=empty">in</w>
+                           <w lemma="terra" pos="NOMcom" msd="Case=Acc|Numb=Sing">terram</w>
+                           <w lemma="saucius" pos="ADJqua"
+                              msd="Case=Nom|Numb=Sing|Gend=Masc|Deg=Pos">saucius</w>
+                           <w lemma="fligo" pos="VER"
+                              msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">fligit</w>
+                           <w lemma="cado" pos="VER"
+                              msd="Case=Nom|Numb=Sing|Gend=Com|Mood=Par|Tense=Pres|Voice=Act"
+                              >cadens</w>.</l>
+                     </lg>
+                     <lg type="stanza" source="Non.23,25">
+                        <l><w lemma="quin1" pos="ADV" msd="MORPH=empty">Quin</w>
+                           <w lemma="qui1" pos="PROrel"
+                              msd="Case=Acc|Numb=Sing|Gend=Neut">quod</w>
+                           <w lemma="pareo" pos="VER"
+                              msd="Mood=Inf|Tense=Pres|Voice=Act">parere</w>
+                           <w lemma="ego" pos="PROper" msd="Case=Dat|Numb=Sing"
+                              >mihi</w>
+                           <w lemma="uos" pos="PROper" msd="Case=Acc|Numb=Plur">uos</w>
+                           <w lemma="maiestas" pos="NOMcom" msd="Case=Nom|Numb=Sing"
+                              >maiestas</w>
+                           <w lemma="meus" pos="PROpos"
+                              msd="Case=Nom|Numb=Sing|Gend=Fem">mea</w></l>
+                        <l><w lemma="proco" pos="VER"
+                           msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">procat</w>
+                           <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                           <w lemma="tolero" pos="VER"
+                              msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=2">toleratis</w>
+                           <w lemma="templum" pos="NOMcom" msd="Case=Abl|Numb=Sing"
+                              >temploque</w>
+                           <w lemma="que" pos="CON" msd="MORPH=empty">{temploque}</w>
+                           <w lemma="hic1" pos="PROdem"
+                              msd="Case=Acc|Numb=Sing|Gend=Fem">hanc</w>
+                           <w lemma="deduco" pos="VER"
+                              msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=2">deducitis</w>
+                           <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l>
+                     </lg>
+                     <lg type="stanza" source="Non.132,32 386,23">
+                        <l><w lemma="iam" pos="ADV" msd="Deg=Pos">Iamne</w>
+                           <w lemma="ne2" pos="ADV" msd="MORPH=empty">{Iamne}</w>
+                           <w lemma="oculus" pos="NOMcom" msd="Case=Acc|Numb=Plur"
+                              >oculos</w>
+                           <w lemma="species" pos="NOMcom" msd="Case=Abl|Numb=Sing"
+                              >specie</w>
+                           <w lemma="laeto" pos="VER"
+                              msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=2">lætauisti</w>
+                           <w lemma="optabilis" pos="ADJqua"
+                              msd="Case=Abl|Numb=Sing|Gend=Com|Deg=Pos">optabili</w>
+                           <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l></lg>
+                  </sp>
+               </div>
+               <div type="translatio" xml:lang="fr">
+                  <sp>
+                     <lg type="stanza">
+                        <l>En réalité, quand Pergame fût</l>
+                        <l>enflammée on eût partagé équitablement</l>
+                        <l>le butin entre les participants.</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>Alors, voici la horde enjouée de Nérée, avec son bec aplati,</l>
+                        <l>qui tourne autour de la flotte en s’amusant des chants (des
+                           marins)...</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>Que personne parmi vous ne rumine (ses pensées) à la femme.</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>Et la solennité extatique offre un éloge au dieu.</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>. . .il s’assied sur le trône royal :</l>
+                        <l>à côté Clytemnestre, ses filles occupent les troisièmes (places).</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>Le blessé se heurte lui-même en tombant à terre.</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>Comment? Vous ne supportez pas que ma majesté,</l>
+                        <l>vous demande de m’obéir ? Pourquoi n’emmenez-vous pas celle-ci au
+                           sanctuaire ?</l>
+                     </lg>
+                     <lg type="stanza">
+                        <l>N’as-tu pas désormais contenté tes yeux par cette vision convoitée ?</l>
+                     </lg>
+                  </sp>
+               </div>
+              </div>
+            </div>
+         </div> 
+      </body>
+   </text>
+</TEI>
