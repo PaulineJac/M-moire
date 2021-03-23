@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -133,7 +130,7 @@
               <div type ="fragmenta"> 
                  <div type="latino_scriptum" xml:lang="la">
                   <sp>
-                     <lg type="stanza" source="Non.512"><!-- /!\ -->
+                     <lg type="stanza" source="Non.512">
                         <l><w lemma="nam" pos="CONcoo" msd="MORPH=empty">Nam</w>
                            <w lemma="ut1" pos="ADVrel" msd="MORPH=empty">ut</w>
                            <w lemma="Pergama" pos="NOMpro" msd="Case=Acc|Numb=Plur|Gend=Neut"
@@ -153,7 +150,7 @@
                               >partita</w>
                            <w lemma="sum1" pos="VER"
                               msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">est</w>.</l>
-                        <!-- /!\ il faudrait cette endroit qu'une seule balise \&amp; alors qu'avec mon code il y une balise & et \& -->
+          
                      </lg>
                      <lg type="stanza" source="Non.335,21">
                         <l><w lemma="tum" pos="ADV" msd="Deg=Pos">Tum</w>
@@ -275,18 +272,18 @@
                      </lg>
                      <lg type="stanza">
                         <l>Alors, voici la horde enjouée de Nérée, avec son bec aplati,</l>
-                        <l>qui tourne autour de la flotte en s’amusant des chants (des
-                           marins)...</l>
+                        <l>qui tourne autour de la flotte en s’amusant des chants [des
+                           marins]...</l>
                      </lg>
                      <lg type="stanza">
-                        <l>Que personne parmi vous ne rumine (ses pensées) à la femme.</l>
+                        <l>Que personne parmi vous ne rumine [ses pensées] à la femme.</l>
                      </lg>
                      <lg type="stanza">
                         <l>Et la solennité extatique offre un éloge au dieu.</l>
                      </lg>
                      <lg type="stanza">
                         <l>. . .il s’assied sur le trône royal :</l>
-                        <l>à côté Clytemnestre, ses filles occupent les troisièmes (places).</l>
+                        <l>à côté Clytemnestre, ses filles occupent les troisièmes [places].</l>
                      </lg>
                      <lg type="stanza">
                         <l>Le blessé se heurte lui-même en tombant à terre.</l>
