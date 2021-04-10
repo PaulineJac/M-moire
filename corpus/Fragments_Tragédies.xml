@@ -310,7 +310,7 @@
                </div>
             </div>
          </div>
-         <div type="auctor" xml:id="Nævius">
+         <div type="auctor" xml:id="Gnaeus_Nævius">
             <head>Nævius</head>
             <p>Texte latin établi et organisé selon les choix de reconstruction et d'édition de <ref
                   source="SpaltenNaevius"/>.</p>
@@ -800,7 +800,6 @@
                         <lg type="stanza" source="Non.259,5">
                            <l><w lemma="caueo" pos="VER"
                                  msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2">Cave</w>
-                              <w lemma="si" pos="CONsub" msd="Numb=Sing">sis</w>
                               <w lemma="uolo" pos="" msd="MORPH=empty">{sis}</w>
                               <w lemma="tuus" pos="PROpos" msd="Case=Acc|Numb=Sing|Gend=Fem"
                                  >tuam</w>
@@ -945,8 +944,7 @@
                         <l>feuillus, où les arbres ont poussé sans avoir été semés.</l>
                      </lg>
                      <lg type="stanza">
-                        <l> Vous autres,
-                           attirez-les en hauteur dans les </l>
+                        <l> Vous autres, attirez-les en hauteur dans les </l>
                         <l>hauts pâturages ...</l>
                         <l>Où les bipèdes ailés abandonnent la lumière du jour pour le filet.</l>
                      </lg>
@@ -962,37 +960,45 @@
                      </lg>
                      <lg type="stanza">
                         <l>De tel sorte qu'ils nous laissent aller vers</l>
-                        <l>leurs bois sacrés, joyeuse, pendant la chasse, ils nous parent de châtiments sauvages.</l>
+                        <l>leurs bois sacrés, joyeuse, pendant la chasse, ils nous parent de
+                           châtiments sauvages.</l>
                      </lg>
                      <lg type="stanza">
-                        <l>En robes, bandeaux ornementaux, robes de couleur safran, vêtements doux du deuil.</l>
+                        <l>En robes, bandeaux ornementaux, robes de couleur safran, vêtements doux
+                           du deuil.</l>
                      </lg>
                      <lg type="stanza">
-                        <l>Dès lors, l'appréhension, la crainte des arrivants libres, redoublent en nous.</l>
+                        <l>Dès lors, l'appréhension, la crainte des arrivants libres, redoublent en
+                           nous.</l>
                      </lg>
                      <lg type="stanza">
-                        <l>En effet, nous les avons vues qu'elles jouaient entre elles le long du ruisseau,
-                           qu'elles pui-</l>
+                        <l>En effet, nous les avons vues qu'elles jouaient entre elles le long du
+                           ruisseau, qu'elles pui-</l>
                         <l>saient l'eau de la source dans des coupes.</l>
                      </lg>
                      <lg type="stanza">
-                        <l>Il avait des chaussures de femme aux pieds, et était enveloppé d'une robe de laine fine.</l>
+                        <l>Il avait des chaussures de femme aux pieds, et était enveloppé d'une robe
+                           de laine fine.</l>
                      </lg>
                      <lg type="stanza">
-                        <l>Dis comment vous vous êtes emparés de lui : par la force ou par la ruse ?</l>
-                     </lg>  
+                        <l>Dis comment vous vous êtes emparés de lui : par la force ou par la ruse
+                           ?</l>
+                     </lg>
                      <lg type="stanza">
-                        <l>comme un troupeau qui se dirige vers la mort suivant des mains sans fers</l>
+                        <l>comme un troupeau qui se dirige vers la mort suivant des mains sans
+                           fers</l>
                      </lg>
                      <lg type="stanza">
                         <l>Conduisez ici</l>
                         <l>ces femmes silencieuses avec les quadrupèdes aux langages expressifs</l>
                      </lg>
                      <lg type="stanza">
-                        <l>Prends garde, je te prie, de ne pas faire  rivaliser ta colère avec celle de Liber.</l>
+                        <l>Prends garde, je te prie, de ne pas faire rivaliser ta colère avec celle
+                           de Liber.</l>
                      </lg>
                      <lg type="stanza">
-                        <l>De peur qu’il ne [ provoque] la colère de mon esprit et l’impétueuse acrimonie de mon âme </l>
+                        <l>De peur qu’il ne [ provoque] la colère de mon esprit et l’impétueuse
+                           acrimonie de mon âme </l>
                      </lg>
                      <lg type="stanza">
                         <l>Les dieux haïssent les hommes injustes</l>
@@ -1013,12 +1019,1344 @@
                         <l>Vous qui demeurez là obstinément ...</l>
                      </lg>
                      <lg type="stanza">
-                        <l>Comme si un fleuve violent l’emportait,  mais pourtant, celui-ci se plie au contour [de la rive].</l>
+                        <l>Comme si un fleuve violent l’emportait, mais pourtant, celui-ci se plie
+                           au contour [de la rive].</l>
                      </lg>
                      <lg type="stanza">
                         <l>Dès lors, alors que la neige fond par la chaleur du soleil</l>
                      </lg>
                   </sp>
+               </div>
+            </div>
+         </div>
+         <div type="auctor" xml:id="Ennius">
+            <head>Quintus Ennius</head>
+            <p>Texte latin établi et organisé selon les choix de reconstruction et d'édition de <ref
+                  source="EnniusLoeb"/>.</p>
+            <div type="fabula" xml:id="Achilles">
+               <head>Achilles</head>
+               <argument>
+                  <p>Sources hellènes : Homère l'<title xml:lang="grc">Ἰλιάς</title>; et les
+                     versions du mythe d'Achille d'Aristarque de Tégée, Iophon, Astydamas, Carcinus,
+                     Cléophon (?), Evaretus, et Diogène de Sinope. </p>
+                  <p>Argument: furieux d’avoir été privé de son butin de guerre, Achille se retire
+                     sous sa tente et refuse de poursuivre le combat. Agamemnon, subissant de
+                     nombreuses défaites, décide de lui envoyer une ambassade afin de convaincre le
+                     héros de retourner combattre auprès des Grecs. La tragédie s’achevait
+                     certainement par la mort de Patrocle qui suscitera le retour d’Achille parmi
+                     les guerriers grecs.</p>
+               </argument>
+               <div type="fragmenta">
+                  <div type="latino_scriptum" xml:lang="la">
+                     <sp>
+                        <lg type="stanza" source="Cicéron, Verr., II, 1, 18">
+                           <l><w lemma="lemma" pos="POS" msd="morph">form</w>
+                              <w lemma="ita" pos="ADV" msd="Deg=Pos">Ita</w>
+                              <w lemma="magnus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Plur|Gend=MascNeut|Deg=Pos">magni</w>
+                              <w lemma="fluctus" pos="NOMcom" msd="Case=Nom|Numb=Plur">fluctus</w>
+                              <w lemma="eicio" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Impa|Voice=Pass|Person=3"
+                                 >eiciebantur</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest. 305 M.">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="per" pos="PRE" msd="MORPH=empty">per</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Nom|Numb=Sing">ego</w>
+                              <w lemma="deus" pos="NOMcom" msd="Case=Gen|Numb=Plur">deum</w>
+                              <w lemma="sublimis" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Fem|Deg=Pos">sublimas</w>
+                              <w lemma="subicio" pos="VER"
+                                 msd="Numb=Plur|Mood=Sub|Tense=Pres|Voice=Act|Person=2"
+                              >subices</w></l>
+                           <l><w lemma="humidus" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Fem|Deg=Pos">Umidas</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="unde1" pos="ADVrel" msd="MORPH=empty">unde</w>
+                              <w lemma="orior" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Dep|Person=3">oritur</w>
+                              <w lemma="imber" pos="NOMcom" msd="Case=Nom|Numb=Sing">imber</w>
+                              <w lemma="sonitus" pos="NOMcom" msd="Case=Abl|Numb=Sing">sonitu</w>
+                              <w lemma="saeuus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Deg=Pos">sævo</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="spiritus" pos="NOMcom" msd="Case=Abl|Numb=Sing">spiritu</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest. 282.9 M.">
+                           <l>
+                              <w lemma="profero" pos="VER"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >Prolato</w>
+                              <w lemma="aes" pos="NOMcom" msd="Case=Abl|Numb=Sing">ære</w>
+                              <w lemma="asto" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=3"
+                              >astitit</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non.147,22">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="nam" pos="CONcoo" msd="MORPH=empty">nam</w>
+                              <w lemma="consilium" pos="NOMcom" msd="Case=Abl|Numb=Plur"
+                                 >consiliis</w>
+                              <w lemma="obuo" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pqp|Voice=Act|Person=3">obvarant</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="qui1" pos="PROrel" msd="Case=Dat|Numb=Plur|Gend=Com"
+                                 >quibus</w>
+                              <w lemma="tam" pos="ADV" msd="Deg=Pos">tam</w>
+                              <w lemma="concedo1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">concedit</w>
+                              <w lemma="hic1" pos="PROdem" msd="Case=Nom|Numb=Sing|Gend=Masc"
+                                 >hic</w>
+                              <w lemma="ordo" pos="NOMcom" msd="Case=Nom|Numb=Sing">ordo</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non.166,22">
+                           <l><w lemma="quis1" pos="PROrel" msd="Case=Abl|Numb=Sing|Gend=MascNeut"
+                                 >Quo</w>
+                              <w lemma="nunc" pos="ADV" msd="Deg=Pos">nunc</w>
+                              <w lemma="incertus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=Fem|Deg=Pos">incerta</w>
+                              <w lemma="res" pos="NOMcom" msd="Case=Abl|Numb=Sing">re</w>
+                              <w lemma="atque1" pos="CONcoo" msd="MORPH=empty">atque</w>
+                              <w lemma="inoratus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=Fem|Deg=Pos">inorata</w>
+                              <w lemma="gradus" pos="NOMcom" msd="Case=Acc|Numb=Sing">gradum</w></l>
+                           <l><w lemma="regredior" pos="VER"
+                                 msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Dep|Person=2"
+                                 >regredere</w>
+                              <w lemma="conor" pos="VER"
+                                 msd="Mood=Inf|Tense=Pres|Voice=Act|Person=2">conare</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non.277,21">
+                           <l><w lemma="seruo" pos="VER"
+                                 msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2">Serva</w>
+                              <w lemma="ciuis" pos="NOMcom" msd="Case=Acc|Numb=Plur">cives</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="defendo" pos="VER"
+                                 msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2">defende</w>
+                              <w lemma="hostis" pos="NOMcom" msd="Case=Acc|Numb=Plur">hostes</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="cum3" pos="CONsub" msd="MORPH=empty">cum</w>
+                              <w lemma="possum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=2">potes</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="defendo" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Act"
+                                 >defendere</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non.472,50">
+                           <l><w lemma="interea" pos="ADV" msd="Deg=Pos">Interea</w>
+                              <w lemma="mortalis1" pos="NOMcom" msd="Case=Acc|Numb=Plur"
+                                 >mortales</w>
+                              <w lemma="inter" pos="PRE" msd="MORPH=empty">inter</w>
+                              <w lemma="sui1" pos="PROref" msd="Case=Acc|Numb=Sing">sese</w>
+                              <w lemma="pugno" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">pugnant</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="proelior" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >proeliant</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Isodore, Different., 218">
+                           <l><w lemma="summa" pos="NOMcom"
+                                 msd="Case=Acc|Numb=Sing|Gend=Fem|Deg=Sup">summam</w>
+                              <w lemma="tu" pos="PROper" msd="Case=Nom|Numb=Sing">tu</w>
+                              <w lemma="tu" pos="PROper" msd="Case=Dat|Numb=Sing">tibi</w></l>
+                           <l><w lemma="pro1" pos="PRE" msd="MORPH=empty">pro</w>
+                              <w lemma="malus3" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=Fem|Deg=Pos">mala</w>
+                              <w lemma="uita" pos="NOMcom" msd="Case=Abl|Numb=Sing">vita</w>
+                              <w lemma="fama" pos="NOMcom" msd="Case=Acc|Numb=Sing">famam</w>
+                              <w lemma="extollo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Fut|Voice=Act|Person=2">extolles</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="]" pos="PUNC" msd="MORPH=empty">]</w>
+                              <w lemma="pro1" pos="PRE" msd="MORPH=empty">pro</w>
+                              <w lemma="bonus" pos="NOMcom" msd="Case=Abl|Numb=Plur|Gend=Fem"
+                                 >bona</w>
+                              <w lemma="pario2" pos="VER"
+                                 msd="Case=Acc|Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >partam</w>
+                              <w lemma="gloria" pos="NOMcom" msd="Case=Acc|Numb=Sing">gloriam</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                           <l>
+                              <w lemma="male" pos="ADV" msd="Deg=Pos">Male</w>
+                              <w lemma="uolo2" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=MascFem|Mood=Par|Tense=Pres|Voice=Act"
+                                 >volentes</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="enim2" pos="CONcoo" msd="MORPH=empty">enim</w>
+                              <w lemma="]" pos="PUNC" msd="MORPH=empty">]</w>
+                              <w lemma="fama" pos="NOMcom" msd="Case=Acc|Numb=Sing">famam</w>
+                              <w lemma="tollo" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">tollunt</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="bene" pos="ADV" msd="Deg=Pos">bene</w>
+                              <w lemma="uolo?" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=MascFem|Mood=Par|Tense=Pres|Voice=Act"
+                                 >volentes</w>
+                              <w lemma="gloria" pos="NOMcom" msd="Case=Acc|Numb=Sing">gloriam</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                     </sp>
+                  </div>
+                  <div type="translatio" xml:lang="fr">
+                     <sp>
+                        <lg type="stanza">
+                           <l> Ainsi les grands flots étaient jetés ... </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l> ... Moi, à travers les sublimes marche-</l>
+                           <l>pieds humides des dieux, de là les pluies naissent d’un souffle et
+                              d’un retentissement impétueux.</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Il s’est tenu debout avec l’airain porté en avant</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l/>
+                        </lg>
+                        <lg type="stanza">
+                           <l>... car ils font obstacle aux résolutions, si par elles l’ordre
+                              s’éloigne d’ici.</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Maintenant, là où l’événement est incertain et méconnu, tu tentes de
+                              revenir sur</l>
+                           <l>tes pas</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Sauve les citoyens, repousse les ennemies puisque tu peux les
+                              repousser</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Pendant que les mortels combattent entre eux, ils livrent bataillent.
+                           </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Tu élèveras le plus haut sommet pour toi-</l>
+                           <l>même, la renommée en faveur d’une mauvaise vie [ et] la gloire
+                              engendrée pour une bonne.</l>
+                           <l>[ En réalité], ceux qui veulent le mal élèvent la renommée, ceux qui
+                              veulent le bien la gloire.</l>
+                        </lg>
+                     </sp>
+                  </div>
+               </div>
+            </div>
+            <div type="fabula" xml:id="Alcmæon">
+               <head>Alcmæon</head>
+               <argument>
+                  <p>Sources hellènes : Homère l'<title xml:lang="grc">Ὀδύσσεια</title>; Euripide
+                        <title xml:lang="grc">Ἀλκμαίων ὁ διὰ Κορίνθου</title> et <title
+                        xml:lang="grc">Ἀλκμαίων ὁ διὰ Ψωφῖδος</title>; ainsi que les versions
+                     fragmentaires de Timothée d'Athènes, Astydamas II, Théodecte de Phasélis,
+                     Evaretus et Nicomaque d'Alexandrie.</p>
+                  <p> Argument: Alcméon, tue sa mère afin de venger son père, Amphiaraos: celui-ci
+                     avait été contraint par sa femme de participer à la guerre contre des Épigones,
+                     le condamnant à une mort certaine. À la suite de ce matricide, Alcméon sera
+                     alors poursuivi par les Furies : celles-ci pousseront le héros à remettre en
+                     question son acte.</p>
+               </argument>
+               <div type="fragmenta">
+                  <div type="latino_scriptum" xml:lang="la">
+                     <sp>
+                        <lg type="stanza" source="Cicéron, De Orat., III, 58, 218">
+                           <l><w lemma="multus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Deg=Pos">Multis</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=1">sum</w>
+                              <w lemma="modus" pos="NOMcom" msd="Case=Abl|Numb=Plur">modis</w>
+                              <w lemma="circumuenio" pos="VER"
+                                 msd="Case=Nom|Numb=Sing|Gend=Masc|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >circumventus</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="morbus" pos="NOMcom" msd="Case=Abl|Numb=Sing">morbo</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="exsilium" pos="NOMcom" msd="Case=Abl|Numb=Sing">exilio</w>
+                              <w lemma="atque1" pos="CONcoo" msd="MORPH=empty">atque</w>
+                              <w lemma="inopia" pos="NOMcom" msd="Case=Abl|Numb=Sing">inopia</w>
+                              <w lemma=";" pos="PUNC" msd="MORPH=empty">;</w></l>
+                           <l><w lemma="tum" pos="ADV" msd="Deg=Pos">Tum</w>
+                              <w lemma="pauor" pos="NOMcom" msd="Case=Nom|Numb=Sing">pavor</w>
+                              <w lemma="sapientia" pos="NOMcom" msd="Case=Acc|Numb=Sing"
+                                 >sapientiam</w>
+                              <w lemma="omnis" pos="PROind" msd="Case=Acc|Numb=Sing|Gend=MascFem"
+                                 >omnem</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Dat|Numb=Sing">mi</w>
+                              <w lemma="exanimo" pos="VER"
+                                 msd="Case=Dat|Numb=Sing|Gend=MascNeut|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >exanimato</w>
+                              <w lemma="exspecto" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >expectorat</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                           <l><w lemma="†" pos="PUNC" msd="MORPH=empty">†</w>
+                              <w lemma="alter" pos="PROind" msd="Case=Nom|Numb=Sing|Gend=Masc"
+                                 >Alter</w>
+                              <w lemma="†" pos="PUNC" msd="MORPH=empty">†</w>
+                              <w lemma="terribilis" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Sing|Gend=MascFem|Deg=Pos">terribilem</w>
+                              <w lemma="minor" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Dep|Person=3">minatur</w>
+                              <w lemma="uita" pos="NOMcom" msd="Case=Gen|Numb=Sing">vitæ</w>
+                              <w lemma="cruciatus" pos="NOMcom" msd="Case=Acc|Numb=Sing"
+                                 >cruciatum</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="nex" pos="NOMcom" msd="Case=Acc|Numb=Sing">necem</w>
+                              <w lemma=";" pos="PUNC" msd="MORPH=empty">;</w></l>
+                           <l><w lemma="qui1" pos="PROrel" msd="Case=Nom|Numb=Sing|Gend=Fem">quæ</w>
+                              <w lemma="nemo" pos="PROind" msd="Case=Nom|Numb=Sing">nemo</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">est</w>
+                              <w lemma="tam" pos="ADV" msd="Deg=Pos">tam</w>
+                              <w lemma="firmus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Deg=Pos">firmo</w>
+                              <w lemma="ingenium" pos="NOMcom" msd="Case=Abl|Numb=Sing">ingenio</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="tantus" pos="PROdem" msd="Case=Nom|Numb=Sing|Gend=Fem"
+                                 >tanta</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="confidentia" pos="NOMcom" msd="Case=Nom|Numb=Sing"
+                                 >confidentia</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="quin2" pos="CONsub" msd="MORPH=empty">quin</w>
+                              <w lemma="refugio" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Act|Person=3">refugiat</w>
+                              <w lemma="timidus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Deg=Pos">timido</w>
+                              <w lemma="sanguis" pos="NOMcom" msd="Case=Nom|Numb=Sing">sanguen</w>
+                              <w lemma="atque1" pos="CONcoo" msd="MORPH=empty">atque</w>
+                              <w lemma="exalbesco" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Act|Person=3"
+                                 >exalbescat</w>
+                              <w lemma="metus" pos="NOMcom" msd="Case=Abl|Numb=Sing">metu</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Cicéron, Acad., II, 17">
+                           <l><w lemma="sed" pos="CONcoo" msd="MORPH=empty">Sed</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Dat|Numb=Sing">mihi</w>
+                              <w lemma="ne4" pos="CONsub" msd="MORPH=empty">ne</w>
+                              <w lemma="utiquam" pos="ADV" msd="Deg=Pos">utiquam</w>
+                              <w lemma="cor" pos="NOMcom" msd="Case=Nom|Numb=Sing">cor</w>
+                              <w lemma="consentio" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >consentit</w>
+                              <w lemma="cum3" pos="CONsub" msd="MORPH=empty">cum</w>
+                              <w lemma="oculus" pos="NOMcom" msd="Case=Gen|Numb=Plur">oculorum</w>
+                              <w lemma="aspectus" pos="NOMcom" msd="Case=Abl|Numb=Sing">aspectu</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Cicéron, Acad., II, 89">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="unde2" pos="ADVint" msd="MORPH=empty">unde</w>
+                              <w lemma="hic1" pos="PROdem" msd="Case=Nom|Numb=Sing|Gend=Fem">hæc</w>
+                              <w lemma="flamma" pos="NOMcom" msd="Case=Nom|Numb=Sing">flamma</w>
+                              <w lemma="orior" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Dep|Person=3">oritur</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l>
+                           <l><w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w></l>
+                           <l><w lemma="incedo1" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">Incedunt</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="incedo1" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">incedunt</w>
+                              <w lemma=":" pos="PUNC" msd="MORPH=empty">:</w>
+                              <w lemma="assum1" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">adsunt</w>
+                              <w lemma="assum1" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">adsunt</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Acc|Numb=Sing">me</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="expeto" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                              >expetunt</w></l>
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w></l>
+                           <l><w lemma="fero" pos="VER"
+                                 msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2">Fer</w>
+                              <w lemma="ego" pos="PROpos" msd="Case=Voc|Numb=Sing">mi</w>
+                              <w lemma="auxilium" pos="NOMcom" msd="Case=Acc|Numb=Sing">auxilium</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="pestis" pos="NOMcom" msd="Case=Acc|Numb=Sing">pestem</w>
+                              <w lemma="abigo" pos="VER"
+                                 msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2">abige</w>
+                              <w lemma="ab" pos="PRE" msd="MORPH=empty">a</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Abl|Numb=Sing">me</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="flammifer" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Sing|Gend=Fem|Deg=Pos">flammiferam</w>
+                              <w lemma="hic1" pos="PROdem" msd="Case=Acc|Numb=Sing|Gend=Fem"
+                                 >hanc</w>
+                              <w lemma="uis" pos="NOMcom" msd="Case=Acc|Numb=Sing">vim</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="qui1" pos="PROrel" msd="Case=Nom|Numb=Sing|Gend=Fem">quæ</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Acc|Numb=Sing">me</w>
+                              <w lemma="excrucio" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >excruciat</w>
+                              <w lemma=";" pos="PUNC" msd="MORPH=empty">;</w></l>
+                           <l><w lemma="caeruleus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Plur|Gend=Fem|Deg=Pos">Cæruleæ</w>
+                              <w lemma="incingo" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >incinctæ</w>
+                              <w lemma="ignis" pos="NOMcom" msd="Case=Abl|Numb=Sing">igni</w>
+                              <w lemma="incedo1" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">incedunt</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="circumsto" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >circumstant</w>
+                              <w lemma="cum3" pos="CONsub" msd="MORPH=empty">cum</w>
+                              <w lemma="ardens" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Deg=Pos|Mood=Par|Tense=Pres|Voice=Act"
+                                 >ardentibus</w>
+                              <w lemma="taeda" pos="NOMcom" msd="Case=Abl|Numb=Plur">tædis</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                           <l><w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w></l>
+                           <l><w lemma="intendo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=3">Intendit</w>
+                              <w lemma="crinitus" pos="ADJqua" msd="Case=Nom|Numb=Sing|Gend=Masc"
+                                 >crinitus</w>
+                              <w lemma="apollo" pos="NOMcom" msd="Case=Nom|Numb=Sing">Apollo</w></l>
+                           <l><w lemma="arcus" pos="NOMcom" msd="Case=Acc|Numb=Sing">Arcum</w>
+                              <w lemma="auratus" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Sing|Gend=MascNeut|Deg=Pos">auratum</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="luna" pos="NOMcom" msd="Case=Abl|Numb=Sing">luna</w>
+                              <w lemma="innitor2" pos="VER"
+                                 msd="Case=Nom|Numb=Sing|Gend=Masc|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >innixus</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="diana" pos="ADJqua" msd="Case=Nom|Numb=Sing">Diana</w>
+                              <w lemma="fax" pos="NOMcom" msd="Case=Acc|Numb=Sing">facem</w>
+                              <w lemma="iacio" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">iacit</w>
+                              <w lemma="ab" pos="PRE" msd="MORPH=empty">a</w>
+                              <w lemma="laeua1" pos="NOMcom" msd="Case=Abl|Numb=Sing">læva</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non.127,13">
+                           <l><w lemma="facio" pos="VER"
+                                 msd="Case=Nom|Numb=Sing|Gend=Neut|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >factum</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">est</w>
+                              <w lemma="iam" pos="ADV" msd="Deg=Pos">iam</w>
+                              <w lemma="diu" pos="ADV" msd="Deg=Pos">diu</w></l>
+                        </lg>
+                     </sp>
+                  </div>
+                  <div type="translatio" xml:lang="fr">
+                     <sp>
+                        <lg type="stanza">
+                           <l>Par bien des manières, je suis entouré par la maladie, l’exil et le
+                              dénuement.</l>
+                           <l>Alors l’effroi bannit de mon esprit toute prudence qui m’épuise.</l>
+                           <l>Quelqu’un menace la vie d’un terrible supplice et de meurtre;</l>
+                           <l>tel que personne n’a un esprit si ferme et tant de confiance,</l>
+                           <l>que son sang ne recule pas devant l’inquiétude et qu'il ne pâlit pas
+                              face à l’anxiété.</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Mais mon cœur n’est nullement d’accord avec la vision de mes yeux.
+                           </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>... d’où naît cette flamme ?</l>
+                           <l>\{...\}</l>
+                           <l>Elles arrivent, elles arrivent, elles sont là, elles sont là, elles
+                              cherchent à m’attendre</l>
+                           <l>\{...\}</l>
+                           <l>Rapporte-moi de l’aide, éloigne de moi ce</l>
+                           <l>fléau, cette puissance enflammée qui me torture; de couleur azur,
+                              elles s’avancent</l>
+                           <l>ceintes par le feu, </l>
+                           <l>elles se tiennent de toutes</l>
+                           <l>parts avec des torches ardentes.</l>
+                           <l>\{...\}</l>
+                           <l>Apollon à la longue chevelure bande</l>
+                           <l>l’arc doré, s’appuyant sur le croissant </l>
+                           <l>Diane lance une torche de la main gauche</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Cela a été fait il y a déjà longtemps.</l>
+                        </lg>
+                     </sp>
+                  </div>
+               </div>
+            </div>
+            <div type="fabula" xml:id="Alexandrus">
+               <head>Alexandrus</head>
+               <argument>
+                  <p>Sources hellènes : Homère l'<title xml:lang="grc">Ὀδύσσεια</title>; <title
+                        xml:lang="grc">Ἀλέξανδρος</title> de Sophocle ainsi que la version
+                     d'Euripide, <title xml:lang="grc">Ἀλκμαίων ὁ διὰ Ψωφῖδος</title>, et Nicomaque
+                     d'Alexandrie <title xml:lang="grc">τροίας</title>.</p>
+                  <p>Argument: ce drame se concentre sur l’enfance de Paris: son père commande son
+                     assassinat à la suite du rêve prémonitoire que fait sa femme, Hécube, qui le
+                     lie à la destruction de Troie . Abandonné sur le mont Ida par les serviteurs du
+                     palais, l’enfant est recueilli par des bergers qui le nomment Alexandre. Devenu
+                     adulte il participe aux jeux organisés par Priam, et y vainc ses frères.
+                     Ceux-ci n’acceptent pas d’avoir été battus par un berger; l’un d’eux, Déiphobe
+                     entreprend même de le tuer. Cassandre intervient, et révèle la véritable
+                     identité du vainqueur ainsi que la destruction future de Troie. </p>
+               </argument>
+               <div type="fragmenta">
+                  <div type="latino_scriptum" xml:lang="la">
+                     <sp>
+                        <lg type="stanza" source="Varron, De ling. lat.,VI, 83, M.">
+                           <l><w lemma="iam" pos="ADV" msd="Deg=Pos">Iam</w>
+                              <w lemma="dudum" pos="ADV" msd="Deg=Pos">dudum</w>
+                              <w lemma="ab" pos="PRE" msd="MORPH=empty">ab</w>
+                              <w lemma="ludus" pos="NOMcom" msd="Case=Abl|Numb=Plur">ludis</w>
+                              <w lemma="animus" pos="NOMcom" msd="Case=Nom|Numb=Sing">animus</w>
+                              <w lemma="atque1" pos="CONcoo" msd="MORPH=empty">atque</w>
+                              <w lemma="auris" pos="NOMcom" msd="Case=Acc|Numb=Plur">aures</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="aueo" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                              >avent</w></l>
+                           <l><w lemma="auide" pos="ADV" msd="Deg=Pos">avide</w>
+                              <w lemma="exspecto" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=MascFem|Mood=Par|Tense=Pres|Voice=Act"
+                                 >expectantes</w>
+                              <w lemma="nuntius1" pos="NOMcom" msd="Case=Acc|Numb=Sing">nuntium</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Varron, De ling. lat.,VII, 82, M.">
+                           <l><w lemma="qui1" pos="PROrel" msd="Case=Abl|Numb=Sing|Gend=Fem">Qua</w>
+                              <w lemma="propter2" pos="PRE" msd="MORPH=empty">propter</w>
+                              <w lemma="par2" pos="ADJqua" msd="Case=Acc|Numb=Sing|Deg=Pos"
+                                 >Parim</w>
+                              <w lemma="pastor" pos="NOMcom" msd="Case=Nom|Numb=Plur">pastores</w>
+                              <w lemma="nunc" pos="ADV" msd="Deg=Pos">nunc</w>
+                              <w lemma="alexander" pos="NOMcom" msd="Case=Acc|Numb=Sing"
+                                 >Alexandrum</w>
+                              <w lemma="uoco" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">vocant</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest.217 M">
+                           <l><w lemma="†" pos="PUNC" msd="MORPH=empty">†</w>
+                              <w lemma="amidium" pos="NOMcom" msd="Case=Abl|Numb=Sing">amidio</w>
+                              <w lemma="†" pos="PUNC" msd="MORPH=empty">†</w>
+                              <w lemma="purus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Masc|Deg=Pos">purus</w>
+                              <w lemma="pu" pos="ADJqua" msd="Case=Nom|Numb=Sing|Gend=Masc|Deg=Pos"
+                                 >putus</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest.317 M">
+                           <l><w lemma="homo" pos="NOMcom" msd="Case=Acc|Numb=Sing">Hominem</w>
+                              <w lemma="appello1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">appellat</w>
+                              <w lemma=":" pos="PUNC" msd="MORPH=empty">:</w>
+                              <w lemma="quis1" pos="PROint" msd="Case=Acc|Numb=Sing|Gend=Neut"
+                                 >quid</w>
+                              <w lemma="lasciuus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Deg=Pos">lascivis</w>
+                           </l>
+                           <l><w lemma="stolide" pos="ADV" msd="Numb=Sing|Deg=Pos">stolide</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w>
+                              <w lemma="non" pos="ADVneg" msd="MORPH=empty">Non</w>
+                              <w lemma="intelligo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >intellegit</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest.165 M">
+                           <l><w lemma="uolo2" pos="VER"
+                                 msd="Case=Nom|Numb=Sing|Gend=MascFem|Mood=Par|Tense=Pres|Voice=Act"
+                                 >Volans</w>
+                              <w lemma="de" pos="PRE" msd="MORPH=empty">de</w>
+                              <w lemma="caelum1" pos="NOMcom" msd="Case=Abl|Numb=Sing">cælo</w>
+                              <w lemma="cum3" pos="CONsub" msd="MORPH=empty">cum</w>
+                              <w lemma="corona" pos="NOMcom" msd="Case=Abl|Numb=Sing">corona</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="taenia" pos="NOMcom" msd="Case=Abl|Numb=Plur">tæniis</w></l>
+                           <l/>
+                        </lg>
+                        <lg type="stanza" source="Macrobe, Sat.,VI, 1, 61">
+                           <l><w lemma="multus" pos="NOMcom"
+                                 msd="Case=Nom|Numb=Plur|Gend=Masc|Deg=Pos">Multi</w>
+                              <w lemma="alius" pos="PROind" msd="Case=Nom|Numb=Plur|Gend=Masc"
+                                 >alii</w>
+                              <w lemma="aduento" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >adventant</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="paupertas" pos="NOMcom" msd="Case=Nom|Numb=Sing"
+                                 >paupertas</w>
+                              <w lemma="qui1" pos="PROrel" msd="Case=Gen|Numb=Plur|Gend=MascNeut"
+                                 >quorum</w></l>
+                           <l><w lemma="obscuro" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">obscurat</w>
+                              <w lemma="nomen" pos="NOMcom" msd="Case=Acc|Numb=Plur">nomina</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Macrobe, Sat.,VI, 2, 18">
+                           <l><w lemma="O" pos="Excl" msd="MORPH=empty">O</w>
+                              <w lemma="lux" pos="NOMcom" msd="Case=Nom|Numb=sing">lux</w>
+                              <w lemma="Troia" pos="NOMcom" msd="Case=Gen|Numb=sing">Troiæ</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="germane" pos="NOMcom" msd="Case=Voc|Numb=Sing">germane</w>
+                              <w lemma="Hector" pos="NOMprop" msd="Case=Voc|Numb=Sing">Hector</w>
+                              <w lemma=";" pos="PUNC" msd="MORPH=empty">;</w></l>
+                           <l><w lemma="quis1" pos="PROint" msd="Case=Acc|Numb=Sing|Gend=Neut"
+                                 >quid</w>
+                              <w lemma="ita" pos="ADV" msd="Deg=Pos">ita</w>
+                              <w lemma="cum2" pos="PRE" msd="MORPH=empty">cum</w>
+                              <w lemma="tuus" pos="PROpos" msd="Case=Abl|Numb=Sing|Gend=MascNeut"
+                                 >tuo</w>
+                              <w lemma="lacero" pos="VER"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >lacerato</w>
+                              <w lemma="corpus" pos="NOMcom" msd="Case=Abl|Numb=Sing">corpore</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="miser" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Masc|Deg=Pos">miser</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=2">es</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="aut" pos="CONcoo" msd="MORPH=empty">aut</w>
+                              <w lemma="qui1" pos="PROrel" msd="Case=Nom|Numb=Plur|Gend=Masc"
+                                 >qui</w>
+                              <w lemma="tu" pos="PROper" msd="Case=Acc|Numb=Sing">te</w>
+                              <w lemma="sic" pos="ADV" msd="Deg=Pos">sic</w>
+                              <w lemma="respecto" pos="VER"
+                                 msd="Case=Dat|Numb=Plur|Gend=Com|Mood=Par|Tense=Pres|Voice=Act"
+                                 >respectantibus</w>
+                              <w lemma="tracto" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Perf|Voice=Act|Person=3"
+                                 >tractavere</w>
+                              <w lemma="nos" pos="PROper" msd="Case=Dat|Numb=Plur">nobis</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l>
+                        </lg>
+                        <lg type="stanza" source="Macrobe, Sat.,VI, 2, 25">
+                           <l><w lemma="nam" pos="CONcoo" msd="MORPH=empty">Nam</w>
+                              <w lemma="magnus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Deg=Sup">maximo</w>
+                              <w lemma="saltus1" pos="NOMcom" msd="Case=Abl|Numb=Sing">saltu</w>
+                              <w lemma="supero" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=3"
+                                 >superavit</w>
+                              <w lemma="grauidus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Masc|Deg=Pos">gravidus</w></l>
+                           <l><w lemma="armatus2" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Deg=Pos">armatis</w>
+                              <w lemma="equus" pos="NOMcom" msd="Case=Nom|Numb=Sing">equus</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="suus" pos="PROpos.ref"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut">Suo</w>
+                              <w lemma="qui1" pos="PROrel" msd="Case=Nom|Numb=Sing|Gend=Masc"
+                                 >qui</w>
+                              <w lemma="partus1" pos="NOMcom" msd="Case=Abl|Numb=Sing">partu</w>
+                              <w lemma="arduus" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Neut|Deg=Pos">ardua</w>
+                              <w lemma="perdo" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Act|Person=3">perdat</w>
+                              <w lemma="pergama" pos="NOMcom" msd="Case=Acc|Numb=Plur">Pergama</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                     </sp>
+                  </div>
+                  <div type="translatio" xml:lang="fr">
+                     <sp>
+                        <lg type="stanza">
+                           <l>Depuis longtemps, l’âme et les oreilles désirent avidement et
+                              attendent une nouvelle</l>
+                           <l>des jeux.</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Pour cette raison, les bergers ont </l>
+                           <l>désormais appelé Paris, Alexandre . .</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>? absolument pur</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Il s’adresse à l’homme : pourquoi </l>
+                           <l> badinez-vous sottement? Il ne comprend pas.</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Volant en haut du ciel avec une couronne et des </l>
+                           <l>bandelettes</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Beaucoup d’autres approchent, dont la </l>
+                           <l>pauvreté obscurcit leurs noms.</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l> Ô lumière de Troie, ô authentique </l>
+                           <l>Hector;</l>
+                           <l>pourquoi es-tu ainsi misérable avec ton corps lacéré ?</l>
+                           <l>ou bien, quels hommes t’ont traité ainsi quand nous avions les yeux
+                              tournés ? </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>De fait, le cheval, lesté avec des armes, abattu</l>
+                           <l>par son très grand saut qui détruit</l>
+                           <l>les forteresses de Pergame avec sa descendance.</l>
+                        </lg>
+                     </sp>
+                  </div>
+               </div>
+            </div>
+            <div type="fabula" xml:id="Andromacha_Æchmalotis">
+               <head>Andromacha Æchmalotis</head>
+               <argument>
+                  <p>Sources hellènes : Homère l'<title xml:lang="grc">Ἰλιάς</title>; Euripide
+                        <title xml:lang="grc">Ἀνδρομάχη</title>, <title xml:lang="grc">Ἑκάβη</title>
+                     et <title xml:lang="grc">Τρῳάδες</title>; Antiphon <title xml:lang="grc"
+                        >Ἀνδρομάχη</title>.</p>
+                  <p>Argument: l’intrigue de cette tragédie se situe au moment de la chute de Troie
+                     : la pièce développe les lamentations d’Andromaque qui atteignent leur
+                     apothéose lors du meurtre d’Astyanax. </p>
+               </argument>
+               <div type="fragmenta">
+                  <div type="latino_scriptum" xml:lang="la">
+                     <sp>
+                        <lg type="stanza" source="Cicéron, Tusc., I, 105">
+                           <l><w lemma="uideo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=1">Vidi</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="uideo" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Act"
+                                 >videre</w>
+                              <w lemma="quod2" pos="CONsub" msd="MORPH=empty">quod</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Acc|Numb=Sing">me</w>
+                              <w lemma="patior" pos="VER"
+                                 msd="Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Dep">passa</w>
+                              <w lemma="aegre" pos="ADV" msd="Deg=Sup">ægerrume</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="hector" pos="NOMcom" msd="Case=Acc|Numb=Sing">Hectorem</w>
+                              <w lemma="currus" pos="NOMcom" msd="Case=Abl|Numb=Sing">curru</w>
+                              <w lemma="quadriiugus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Deg=Pos">quadriiugo</w>
+                              <w lemma="rapto" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Dep"
+                                 >raptarier</w></l>
+                        </lg>
+                        <lg type="stanza" source="Cicéron, Tusc., I, 105">
+                           <l>
+                              <w lemma="ex" pos="PRE" msd="MORPH=empty">Ex</w>
+                              <w lemma="ops" pos="NOMcom" msd="Case=Abl|Numb=Plur">opibus</w>
+                              <w lemma="superus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Deg=Sup">summis</w>
+                              <w lemma="ops" pos="NOMcom" msd="Case=Gen|Numb=Sing">opis</w>
+                              <w lemma="egens" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Com|Deg=Pos">egens</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="hector" pos="NOMcom" msd="Case=Nom|Numb=Sing">Hector</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="tuus" pos="PROpos" msd="Case=Nom|Numb=Sing|Gend=Fem"
+                              >tuæ</w></l>
+                           <l><w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w></l>
+                           <l><w lemma="quis1" pos="PROint" msd="Case=Acc|Numb=Sing|Gend=Neut"
+                                 >Quid</w>
+                              <w lemma="peto" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Fut|Voice=Act|Person=1">petam</w>
+                              <w lemma="praesidium" pos="NOMcom" msd="Case=Gen|Numb=Sing"
+                                 >præsidi</w>
+                              <w lemma="aut" pos="CONcoo" msd="MORPH=empty">aut</w>
+                              <w lemma="exsequor" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Fut|Voice=Pass|Person=1">exequar</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w>
+                              <w lemma="quis" pos="PROint" msd="Case=Abl|Numb=Sing|Gend=MascNeut"
+                                 >quove</w>
+                              <w lemma="ue" pos="CON" msd="MORPH=empty">{quove}</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="nunc" pos="ADV" msd="Deg=Pos">nunc</w></l>
+                           <l><w lemma="auxilium" pos="NOMcom" msd="Case=Abl|Numb=Sing">auxilio</w>
+                              <w lemma="aut" pos="CONcoo" msd="MORPH=empty">aut</w>
+                              <w lemma="exsilium" pos="NOMcom" msd="Case=Abl|Numb=Sing|Gend=Com"
+                                 >exili</w>
+                              <w lemma="aut" pos="CONcoo" msd="MORPH=empty">aut</w>
+                              <w lemma="fuga" pos="NOMcom" msd="Case=Gen|Numb=Sing">fugæ</w>
+                              <w lemma="fretus1" pos="NOMcom" msd="Case=Nom|Numb=Plur">freta</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Act|Person=1">sim</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l>
+                           <l><w lemma="arx" pos="NOMcom" msd="Case=Abl|Numb=Sing">Arce</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="urbs" pos="NOMcom" msd="Case=Abl|Numb=Sing">urbe</w>
+                              <w lemma="orbus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Fem|Deg=Pos">orba</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=1">sum</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="quo3" pos="ADVint" msd="MORPH=empty">Quo</w>
+                              <w lemma="accedo1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Fut|Voice=Act|Person=1">accedam</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="quo3" pos="ADVint" msd="MORPH=empty">Quo</w>
+                              <w lemma="applico" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Act|Person=1">applicem</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l>
+                           <l><w lemma="qui1" pos="PROrel" msd="Case=Dat|Numb=Sing|Gend=Com">Cui</w>
+                              <w lemma="nec2" pos="CONcoo" msd="MORPH=empty">nec</w>
+                              <w lemma="ara" pos="NOMcom" msd="Case=Nom|Numb=Plur">aræ</w>
+                              <w lemma="patria" pos="NOMcom" msd="Case=Gen|Numb=Sing">patriæ</w>
+                              <w lemma="domus" pos="NOMcom" msd="Case=Loc|Numb=Sing">domi</w>
+                              <w lemma="sto" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">stant</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="frango" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >fractæ</w>
+                              <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="disicio" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >disiectæ</w>
+                              <w lemma="iaceo" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">iacent</w>
+                              <w lemma=";" pos="PUNC" msd="MORPH=empty">;</w></l>
+                           <l><w lemma="fanum" pos="NOMcom" msd="Case=Nom|Numb=Plur">fana</w>
+                              <w lemma="flamma" pos="NOMcom" msd="Case=Nom|Numb=Sing">flamma</w>
+                              <w lemma="deflagro" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=Neut|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >deflagrata</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="torreo" pos="NOMcom" msd="Case=Nom|Numb=Plur">tosti</w>
+                              <w lemma="altus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Plur|Gend=Masc|Deg=Pos">alti</w>
+                              <w lemma="sto" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">stant</w>
+                              <w lemma="paries" pos="NOMcom" msd="Case=Nom|Numb=Plur"
+                              >parietes</w></l>
+                           <l><w lemma="deformo?" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=Masc|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >Deformati</w>
+                              <w lemma="atque1" pos="CONcoo" msd="MORPH=empty">atque</w>
+                              <w lemma="abies" pos="NOMcom" msd="Case=Abl|Numb=Sing">abiete</w>
+                              <w lemma="crispa" pos="ADJqua" msd="Case=Nom|Numb=Sing">crispa</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                           <l><w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w></l>
+                           <l><w lemma="o" pos="INJ" msd="MORPH=empty">O</w>
+                              <w lemma="pater" pos="NOMcom" msd="Case=Voc|Numb=Sing">pater</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="o" pos="INJ" msd="MORPH=empty">o</w>
+                              <w lemma="patria" pos="NOMcom" msd="Case=Voc|Numb=Sing">patria</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="o" pos="INJ" msd="MORPH=empty">o</w>
+                              <w lemma="priamum" pos="NOMpro" msd="Case=Gen|Numb=Sing">Priami</w>
+                              <w lemma="domus" pos="NOMcom" msd="Case=Voc|Numb=Sing">domus</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="saepio" pos="VER"
+                                 msd="Numb=Sing|Gend=Neut|Mood=Par|Tense=Perf|Voice=Pass">Sæptum</w>
+                              <w lemma="altisonus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Sing|Gend=MascNeut|Deg=Pos">altisono</w>
+                              <w lemma="cardo" pos="NOMcom" msd="Case=Abl|Numb=Sing">cardine</w>
+                              <w lemma="templum" pos="NOMcom" msd="Case=Acc|Numb=Sing">templum</w>
+                              <w lemma="!" pos="PUNC" msd="MORPH=empty">!</w></l>
+                           <l><w lemma="uideo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=1">Vidi</w>
+                              <w lemma="ego" pos="PROper" msd="Case=Nom|Numb=Sing">ego</w>
+                              <w lemma="tu" pos="PROper" msd="Case=Acc|Numb=Sing">te</w>
+                              <w lemma="asto" pos="VER"
+                                 msd="Case=Abl|Numb=Sing|Gend=Com|Mood=Par|Tense=Pres|Voice=Act"
+                                 >adstante</w>
+                              <w lemma="ops" pos="NOMcom" msd="Case=Abl|Numb=Sing">ope</w>
+                              <w lemma="barbaricus" pos="ADJqua"
+                                 msd="Case=Abl|Numb=Plur|Gend=Fem|Deg=Pos">barbarica</w></l>
+                           <l><w lemma="tectum" pos="NOMcom" msd="Case=Abl|Numb=Plur">tectis</w>
+                              <w lemma="caelo" pos="VER"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >cælatis</w>
+                              <w lemma="laqueo1" pos="VER"
+                                 msd="Numb=Plur|Mood=Sub|Tense=Pres|Voice=Act|Person=2"
+                                 >laqueatis</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="aurum" pos="NOMcom" msd="Case=Abl|Numb=Sing">auro</w>
+                              <w lemma="ebur" pos="NOMcom" msd="Case=Abl|Numb=Sing">ebore</w>
+                              <w lemma="instruo" pos="VER"
+                                 msd="Case=Acc|Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >instructam</w>
+                              <w lemma="regificio" pos="VER"
+                                 msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2"
+                                 >regifice</w><w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                           <l><w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w></l>
+                           <l><w lemma="hic1" pos="PROdem" msd="Case=Acc|Numb=Plur|Gend=Neut"
+                                 >Haec</w>
+                              <w lemma="omnis" pos="PROind" msd="Case=Acc|Numb=Plur|Gend=Neut"
+                                 >omnia</w>
+                              <w lemma="uideo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=1">vidi</w>
+                              <w lemma="inflammo" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Pass"
+                                 >inflammari</w></l>
+                           <l><w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="priamus" pos="NOMpro" msd="Case=Abl|Numb=Sing">Priamo</w>
+                              <w lemma="uis" pos="NOMcom" msd="Case=Abl|Numb=Sing">vi</w>
+                              <w lemma="uita" pos="NOMcom" msd="Case=Acc|Numb=Sing">vitam</w>
+                              <w lemma="euito" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Pass"
+                                 >evitari</w><w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l><w lemma="Iuppiter" pos="NOMpro" msd="Case=Gen|Numb=Sing">Iovis</w>
+                              <w lemma="ara" pos="NOMcom" msd="Case=Acc|Numb=Sing">aram</w>
+                              <w lemma="sanguis" pos="NOMcom" msd="Case=Abl|Numb=Sing">sanguine</w>
+                              <w lemma="turpo" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Pass"
+                                 >turpari</w></l>
+                        </lg>
+                        <lg type="stanza" source="Varron, De ling., VII, 6, M">
+                           <l><w lemma="acherusium" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Neut|Deg=Pos">Acherusia</w>
+                              <w lemma="templum" pos="NOMcom" msd="Case=Acc|Numb=Plur">templa</w>
+                              <w lemma="altus" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Neut|Deg=Pos">alta</w>
+                              <w lemma="orcus" pos="NOMcom" msd="Case=Gen|Numb=Sing">Orci</w>
+                              <w lemma="salueo" pos="VER"
+                                 msd="Numb=Plur|Mood=Imp|Tense=Pres|Voice=Act|Person=2">salvete</w>
+                              <w lemma="inferus" pos="ADJqua" msd="Case=Nom|Numb=Sing|Gend=Fem"
+                                 >infera</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Varron, De ling., VII, 82, M">
+                           <l><w lemma="andromacha" pos="NOMcom" msd="Case=Gen|Numb=Sing"
+                                 >Andromachæ</w>
+                              <w lemma="nomen" pos="NOMcom" msd="Case=Acc|Numb=Sing">nomen</w>
+                              <w lemma="qui1" pos="PROrel" msd="Case=Nom|Numb=Sing|Gend=Masc"
+                                 >qui</w>
+                              <w lemma="indo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=3">indidit</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="recte" pos="ADV" msd="Deg=Pos">recte</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="indo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=3">indidit</w>
+                              <w lemma="aut" pos="CONcoo" msd="MORPH=empty">aut</w>
+                              <w lemma="alexander" pos="NOMpro" msd="Case=Acc|Numb=Sing"
+                                 >Alexandrum</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest. 384.16">
+                           <l><w lemma="deus" pos="NOMcom" msd="Case=Nom|Numb=Plur">di</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="on" pos="" msd="">on</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">est</w>
+                              <w lemma=":" pos="PUNC" msd="MORPH=empty">:</w>
+                              <w lemma="nam" pos="CONcoo" msd="MORPH=empty">Nam</w>
+                              <w lemma="mussares" pos="ADJqua" msd="Mood=Inf|Tense=Pres|Voice=Act"
+                                 >mussare</w>
+                              <w lemma="si" pos="CONsub" msd="Numb=Sing">si</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 76, 1">
+                           <l><w lemma="quis1" pos="PROint" msd="Case=Nom|Numb=Sing|Gend=Neut"
+                                 >Quid</w>
+                              <w lemma="fio" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">fit</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w>
+                              <w lemma="seditio" pos="NOMcom" msd="Case=Nom|Numb=Sing">seditio</w>
+                              <w lemma="tabeo" pos="ADV" msd="Numb=Sing">tabetne</w>
+                              <w lemma="ne2" pos="ADV" msd="MORPH=empty">{tabetne}</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="an" pos="ADVint" msd="MORPH=empty">an</w>
+                              <w lemma="numerus" pos="NOMcom" msd="Case=Acc|Numb=Plur">numeros</w>
+                              <w lemma="augifico" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >augificat</w>
+                              <w lemma="suus" pos="PROpos.ref" msd="Case=Acc|Numb=Plur|Gend=Masc"
+                                 >suos</w>
+                              <w lemma="?" pos="PUNC" msd="MORPH=empty">?</w></l>
+                        </lg>
+                        <lg type="stanza" source="292, 8">
+                           <l><w lemma="quantus2" pos="PROint" msd="Case=Abl|Numb=Plur|Gend=Com"
+                                 >Quantis</w>
+                              <w lemma="cum2" pos="PRE" msd="MORPH=empty">cum</w>
+                              <w lemma="aerumna" pos="NOMcom" msd="Case=Abl|Numb=Plur">ærumnis</w>
+                              <w lemma="ille" pos="PROdem" msd="Case=Acc|Numb=Sing|Gend=Masc"
+                                 >illum</w>
+                              <w lemma="exanclo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=1"
+                                 >exanclavi</w>
+                              <w lemma="dies" pos="NOMcom" msd="Case=Acc|Numb=Sing">diem</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 402,3">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="annus" pos="NOMcom" msd="Case=Acc|Numb=Plur">annos</w>
+                              <w lemma="multus" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Masc|Deg=Pos">multos</w>
+                              <w lemma="longinque" pos="ADV" msd="Deg=Pos">longinque</w>
+                              <w lemma="domus" pos="NOMcom" msd="Case=Abl|Numb=Sing">domo</w></l>
+                           <l><w lemma="bellum" pos="NOMcom" msd="Case=Acc|Numb=Sing">bellum</w>
+                              <w lemma="gero" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=MascFem|Mood=Par|Tense=Pres|Voice=Act"
+                                 >gerentes</w>
+                              <w lemma="superus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=MascNeut|Deg=Sup">summum</w>
+                              <w lemma="superus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Fem|Deg=Sup">summa</w>
+                              <w lemma="industria" pos="NOMcom" msd="Case=Nom|Numb=Sing"
+                                 >industria</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 504, 16">
+                           <l><w lemma="nam" pos="CONcoo" msd="MORPH=empty">Nam</w>
+                              <w lemma="ubi3" pos="CONsub" msd="MORPH=empty">ubi</w>
+                              <w lemma="introduco" pos="VER"
+                                 msd="Case=Nom|Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >introducta</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">est</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="puer" pos="NOMcom" msd="Case=Acc|Numb=Sing">puerumque</w>
+                              <w lemma="que" pos="CON" msd="MORPH=empty">{puerumque}</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="ut4" pos="CONsub" msd="MORPH=empty">ut</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="lauo1" pos="VER"
+                                 msd="Numb=Plur|Mood=Sub|Tense=Impa|Voice=Act|Person=3">laverent</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="loco" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                              >locant</w></l>
+                           <l><w lemma="in" pos="PRE" msd="MORPH=empty">In</w>
+                              <w lemma="clupeus" pos="NOMcom" msd="Case=Abl|Numb=Sing"
+                              >clupeo</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 505,25">
+                           <l><w lemma="nam" pos="CONcoo" msd="MORPH=empty">Nam</w>
+                              <w lemma="neque" pos="CONcoo" msd="MORPH=empty">neque</w>
+                              <w lemma="iratus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Plur|Gend=Masc|Deg=Pos">irati</w>
+                              <w lemma="neque" pos="CONcoo" msd="MORPH=empty">neque</w>
+                              <w lemma="blandus" pos="ADJqua"
+                                 msd="Case=Gen|Numb=Sing|Gend=Masc|Deg=Pos">blandi</w>
+                              <w lemma="quisquam" pos="PROind" msd="Case=Acc|Numb=Sing|Gend=Neut"
+                                 >quicquam</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="sincere" pos="ADV" msd="Deg=Pos">sincere</w>
+                              <w lemma="sono1" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                              >sonunt</w></l>
+                        </lg>
+                        <lg type="stanza" source="515,27">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="sed" pos="CONcoo" msd="MORPH=empty">sed</w>
+                              <w lemma="quasi1" pos="ADVrel" msd="MORPH=empty">quasi</w>
+                              <w lemma="ferrum" pos="NOMcom" msd="Case=Nom|Numb=Sing">ferrum</w>
+                              <w lemma="aut" pos="CONcoo" msd="MORPH=empty">aut</w>
+                              <w lemma="lapis" pos="NOMcom" msd="Case=Nom|Numb=Sing">lapis</w></l>
+                           <l><w lemma="duro" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">durat</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="rarenter" pos="ADV" msd="Deg=Pos">rarenter</w>
+                              <w lemma="gemitus" pos="NOMcom" msd="Case=Acc|Numb=Sing">gemitum</w>
+                              <w lemma="†" pos="PUNC" msd="MORPH=empty">†</w>
+                              <w lemma="conor" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Dep|Person=3">conatur</w>
+                              <w lemma="trabs" pos="NOMcom" msd="Case=Acc|Numb=Sing">trabem</w>
+                              <w lemma="†" pos="PUNC" msd="MORPH=empty">†</w></l>
+                        </lg>
+                        <lg type="stanza" source="Macrobe,Sat. VI, 5, 10">
+                           <l><w lemma="rapio" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">rapit</w>
+                              <w lemma="ex" pos="PRE" msd="MORPH=empty">ex</w>
+                              <w lemma="altum" pos="ADJqua" msd="Case=Abl|Numb=Sing|Deg=Pos"
+                                 >alto</w>
+                              <w lemma="nauis" pos="NOMcom" msd="Case=Acc|Numb=Plur">naves</w>
+                              <w lemma="ueliuolus" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Plur|Gend=Fem|Deg=Pos">velivolas</w></l>
+                        </lg>
+                     </sp>
+                  </div>
+                  <div type="translatio" xml:lang="fr">
+                     <sp>
+                        <lg type="stanza">
+                           <l/>
+                        </lg>
+                        <lg type="stanza">
+                           <l>J’ai vu que j’ai enduré de voir avec la plus grande souffrance</l>
+                           <l>Hector être emporté par un quadrige</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>d’après les plus grands secours, ayant besoin de ton secours,
+                              Hector</l>
+                           <l>\{...\}</l>
+                           <l>Quelle protection dois-je solliciter ou poursuivre ? Ou à présent, en
+                              quelle aide, l’exil, </l>
+                           <l>ou la fuite, puis-je compter ?</l>
+                           <l>Je suis orpheline de ville et de citadelle. Où dois-je aller ? Sur qui
+                              puis-je m’adosser ? </l>
+                           <l>Moi, à qui ni les hôtels paternels ni le foyer ne subsistent:
+                              dispersés et brisés, ils sont en ruines; </l>
+                           <l>les temples consumés par les flammes, les hauts murs brûlés et altérés
+                              subsistent grâce</l>
+                           <l>au sapin tordu...</l>
+                           <l>\{...\}</l>
+                           <l>Ô père, ô patrie, ô maison de Priam, ô temple </l>
+                           <l>enceint d’une ligne sublime qui résonne</l>
+                           <l>fort. Je t’ai vu quand le soutien se tenait </l>
+                           <l>aux côtés des étrangers avec tes toits sculp-</l>
+                           <l>tés et lambrissés, pourvu royalement avec de l’or et de l’ivoire.</l>
+                           <l>\{...\}</l>
+                           <l>J’ai vu toutes ces choses être incendiées,</l>
+                           <l>la vie de Priam être ôtée par la force,</l>
+                           <l>l’autel de Jupiter être souillé par le sang</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Profonds sanctuaires achérusien d’Orcus, salutations... </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Celui qui a donné le nom d’Andromaque l’a donné convenablement, ou
+                              Alexandre …</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>les dieux … [ ?] est, en vérité taire si … </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Qu’arrive-t-il ? Est-ce que le soulèvement se désagrège ? Ou est-ce
+                              qu’il accroît leurs effectifs ?</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>Avec quelles grandes peines ai-je enduré ce jour</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l> ... depuis de nombreuses années, loin du</l>
+                           <l>foyer, puisqu’ ils accomplissent une guerre importante avec la plus
+                              grande application </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>En réalité, lorsqu’elle a été conduite à l’intérieur, et comme ils
+                              lavaient l’enfant, ils</l>
+                           <l>le placent sur le bouclier</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>De fait ni les impétueux, ni les flatteurs, ne clament quelque chose
+                              sincèrement</l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>... mais, comme la pierre endurcit le fer, </l>
+                           <l>il se prépare à gémir rarement à la massue </l>
+                        </lg>
+                        <lg type="stanza">
+                           <l>il emporte les voiliers en provenance du large</l>
+                        </lg>
+                     </sp>
+                  </div>
+               </div>
+            </div>
+            <div type="fabula" xml:id="Andromeda">
+               <head>Andromeda</head>
+               <argument>
+                  <p>Sources hellènes : les versions d'<title xml:lang="grc">Ἀνδρομέδα</title> de
+                     Sophocle, Euripide, Lycophron, Phrynichos.</p>
+                  <p> Argument: cassiopée, reine de l’Éthiopie, se targue d’avoir une fille plus
+                     belle que les Néréides : son excès d’orgueil offense Neptune qui inonde les
+                     côtes éthiopiennes et envoie un monstre marin. Désespéré, le roi consulte
+                     l’oracle d’Ammon qui révèle que seul le sacrifice d’Andromède au monstre pourra
+                     faire cesser le fléau. Celle-ci est alors enchaînée à un rocher.</p>
+                  <p> La critique <note>voir<ref source="EnniusLoeb"/>, p.41</note> suppose
+                     qu’Ennius suit précisément l’intrigue du drame d’Euripide: la pièce
+                     commencerait alors qu’Andromède se lamente attendant sa mort sur un rocher ;
+                     puis arrive Persée tombant éperdument amoureux de la belle, il décide de la
+                     sauver en combattant le monstre qui met en péril son bonheur.</p>
+               </argument>
+               <div type="fragmenta">
+                  <div type="latino_scriptum" xml:lang="la">
+                     <sp>
+                        <lg type="stanza" source="Varron, De ling.,VII, 6">
+                           <l><w lemma="qui1" pos="PROrel" msd="Case=Nom|Numb=Sing|Gend=Fem">quæ</w>
+                              <w lemma="cauus2" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Sing|Gend=Neut|Deg=Pos">cava</w>
+                              <w lemma="caelum1" pos="NOMcom" msd="Case=Gen|Numb=Sing">cæli</w></l>
+                           <l><w lemma="signitenens" pos="VER"
+                                 msd="Case=Abl|Numb=Plur|Gend=Com|Mood=Par|Tense=Pres|Voice=Act"
+                                 >signitenentibus</w>
+                              <w lemma="conficio" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=2">conficis</w>
+                              <w lemma="biga" pos="NOMcom" msd="Case=Abl|Numb=Plur">bigis</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest.217 M">
+                           <l><w lemma="liber2" pos="ADJqua"
+                                 msd="Case=Acc|Numb=Sing|Gend=MascNeut|Deg=Pos">Liberum</w>
+                              <w lemma="quaero" pos="VER"
+                                 msd="Case=Acc|Numb=Sing|Gend=MascNeut|Mood=Adj|Voice=Pass"
+                                 >quæsendum</w>
+                              <w lemma="causa" pos="NOMcom" msd="Case=Nom|Numb=Sing">causa</w>
+                              <w lemma="familia" pos="NOMcom" msd="Case=Gen|Numb=Sing">familiæ</w>
+                              <w lemma="mater" pos="NOMcom" msd="Case=Acc|Numb=Sing">matrem</w>
+                              <w lemma="tuus" pos="PROpos" msd="Case=Gen|Numb=Sing|Gend=Fem">tuæ</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 169, 21">
+                           <l><w lemma="scrupeus" pos="VER" msd="Case=Abl|Numb=Sing">Scrupeo</w>
+                              <w lemma="inuestio" pos="VER"
+                                 msd="Case=Nom|Numb=Plur|Gend=Neut|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >investita</w>
+                              <w lemma="saxum" pos="NOMcom" msd="Case=Abl|Numb=Sing">saxo</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="atque1" pos="CONcoo" msd="MORPH=empty">atque</w>
+                              <w lemma="ostreum" pos="NOMcom" msd="Case=Abl|Numb=Plur">ostreis</w>
+                              <w lemma="squama" pos="NOMcom" msd="Case=Nom|Numb=Plur|Gend=Fem"
+                                 >squamæ</w>
+                              <w lemma="scabro" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Fut|Voice=Act|Person=3">scabrent</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Fest.375 M">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="circum2" pos="PRE" msd="MORPH=empty">circum</w>
+                              <w lemma="sui1" pos="PROref" msd="Case=Acc|Numb=Sing">sese</w>
+                              <w lemma="uruo" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Pres|Voice=Act|Person=3">urvat</w>
+                              <w lemma="ad2" pos="PRE" msd="MORPH=empty">ad</w>
+                              <w lemma="pes" pos="NOMcom" msd="Case=Acc|Numb=Plur">pedes</w><w
+                                 lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l>
+                              <w lemma="ab" pos="PRE" msd="MORPH=empty">a</w>
+                              <w lemma="terra" pos="NOMcom" msd="Case=Abl|Numb=Sing">terra</w>
+                              <w lemma="quadringenti" pos="ADJcar"
+                                 msd="Case=Acc|Numb=Plur|Gend=Masc">quadringentos</w>
+                              <w lemma="caput" pos="NOMcom" msd="Case=Acc|Numb=Sing">caput</w></l>
+                        </lg>
+                        <lg type="stanza" source="Varron, Non. 20, 23">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="corpus" pos="NOMcom" msd="Case=Nom|Numb=Sing">corpus</w>
+                              <w lemma="contemplor" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Pass|Person=3"
+                                 >contemplatur</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="unde2" pos="ADVint" msd="MORPH=empty">unde</w>
+                              <w lemma="corporo" pos="VER"
+                                 msd="Numb=Sing|Mood=Sub|Tense=Impa|Voice=Act|Person=3"
+                                 >corporaret</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="uulnus" pos="NOMcom" msd="Case=Abl|Numb=Sing"
+                              >vulnere</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 165, 11">
+                           <l><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="rursus" pos="ADV" msd="Deg=Pos">rursus</w>
+                              <w lemma="prorsus2" pos="ADV" msd="Deg=Pos">prosus</w>
+                              <w lemma="reciproco" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3"
+                                 >reciprocat</w>
+                              <w lemma="fluctus" pos="NOMcom" msd="Case=Acc|Numb=Plur">fluctus</w>
+                              <w lemma="fero" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Fut|Voice=Act|Person=1">feram</w></l>
+                        </lg>
+                        <lg type="stanza" source="Non. 183, 17">
+                           <l>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+                              <w lemma="alius" pos="PROind" msd="Case=Nom|Numb=Plur|Gend=Fem"
+                                 >alia</w>
+                              <w lemma="fluctus" pos="NOMcom" msd="Case=Nom|Numb=Plur">fluctus</w>
+                              <w lemma="differo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">differt</w>
+                              <w lemma="dissipo" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=3">dissupat</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w></l>
+                           <l>
+                              <w lemma="uisceratim" pos="ADV" msd="Deg=Pos">visceratim</w>
+                              <w lemma="membrum" pos="NOMcom" msd="Case=Acc|Numb=Plur">membra</w>
+                              <w lemma="," pos="PUNC" msd="MORPH=empty">,</w>
+                              <w lemma="mare" pos="NOMcom" msd="Case=Acc|Numb=Plur">maria</w>
+                              <w lemma="salsus" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Plur|Gend=Neut|Deg=Pos">salsa</w>
+                              <w lemma="spumo" pos="VER"
+                                 msd="Numb=Plur|Mood=Ind|Tense=Pres|Voice=Act|Person=3">spumant</w>
+                              <w lemma="sanguis" pos="NOMcom" msd="Case=Abl|Numb=Sing">sanguine</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                        <lg type="stanza" source="Varron, De ling.,VII, 6">
+                           <l><w lemma="ab" pos="PRE" msd="MORPH=empty">A</w>
+                              <w lemma="filius" pos="NOMcom" msd="Case=Abl|Numb=Plur">filiis</w>
+                              <w lemma="propter2" pos="PRE" msd="MORPH=empty">propter</w>
+                              <w lemma="tu" pos="PROper" msd="Case=Acc|Numb=Sing">te</w>
+                              <w lemma="obicio" pos="VER"
+                                 msd="Case=Nom|Numb=Sing|Gend=Fem|Mood=Par|Tense=Perf|Voice=Pass"
+                                 >objecta</w>
+                              <w lemma="sum1" pos="VER"
+                                 msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=1">sum</w>
+                              <w lemma="innocens" pos="ADJqua"
+                                 msd="Case=Nom|Numb=Sing|Gend=Com|Deg=Pos">innocens</w>
+                              <w lemma="[" pos="PUNC" msd="MORPH=empty">[</w>
+                              <w lemma="nereus" pos="NOMcom" msd="Case=Nom|Numb=Sing">Nerei</w>
+                              <w lemma="." pos="PUNC" msd="MORPH=empty">.</w></l>
+                        </lg>
+                     </sp>
+                  </div>
+                  <div type="translatio" xml:lang="fr">
+                     <sp>
+                        <lg type="stanza"> <l>toi qui parcours les profondeurs du ciel</l>
+                        <l>avec ton char étoilé</l></lg>
+                        <lg type="stanza"><l>Pour demander des enfants à la mère de ta famille. </l></lg>
+                        <lg type="stanza"><l>Revêtus par une roche revêche, et les écailles sont hérissées par des huîtres. </l></lg>
+                        <lg><l>... autour de lui, il trace le sillon d’enceinte</l> <l>de la capitale jusqu’à quatre cents pieds du sol</l></lg>
+                        <lg><l>il considère le corps, là où il pourrait le tuer par une plaie </l></lg>
+                        <lg><l>Le flot fait osciller la bête d’avant en arrière</l></lg>
+                        <lg><l>Le flot disperse en lambeaux les autres mem-</l>
+                        <l>bres, les océans salés  écument du sang.</l></lg>
+                        <lg><l>À cause de toi, j’ai été exposée, innocente,
+                        aux filles de Nérée.</l></lg>
+                     </sp>
+                  </div>
                </div>
             </div>
          </div>
