@@ -9,5 +9,8 @@
                 <xsl:apply-templates select="node() | @*"/>
             </xsl:copy>
         </xsl:template>
+    <xsl:template match="argument"/> 
     <xsl:template match="div[@type = 'translatio']"/> 
+    <xsl:template match="p"/> 
+    <xsl:template match="head"/> 
 </xsl:stylesheet>

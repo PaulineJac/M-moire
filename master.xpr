@@ -10,31 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../../Downloads/Sans_titre1.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Deucalion2TEI</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>corpus/Fragments_Trag%C3%A9dies.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Fragments_XML</String>
+                                        <String>Fragments_TEX</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

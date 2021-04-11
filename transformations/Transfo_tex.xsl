@@ -32,9 +32,11 @@
 \usepackage{hyperref}
 \usepackage{ragged2e}
 \usepackage[backend=biber, bibstyle=verbose, backref=false, hyperref=false, citestyle=authortitle-ibid]{biblatex}
-\addbibresource{/Users/Mac-Pauline/Documents/Texmf/bibtex/bib/Biblio.bib}
+\DeclareFieldFormat{title}{\textit{#1}}
+\DeclareFieldFormat{booktitle}{\textit{#1}}
+\DeclareFieldFormat{journaltitle}{\textit{#1}}
+\addbibresource{Biblio.bib}
 %%%%%%%%
-\addto{\captionsfrench}{\renewcommand{\abstractname}{ }}
 %%%%%%%%
 %%%%%%%%%%%%%%%%
 \usepackage{calc} 
@@ -109,13 +111,17 @@ series={}
 %%%%%
 \firstlinenum*{100000}
 %%%%%%%
-\setlength{\Lcolwidth}{.450\textwidth}
+\setlength{\Lcolwidth}{.430\textwidth}
 \setlength{\Rcolwidth}{.450\textwidth}
 \columnsposition{C}
 \setlength{\beforecolumnseparator}{0.035\textwidth}
 \setlength{\aftercolumnseparator}{0.0001\textwidth}
 \sidenotemargin{left}
-                %%%%%%%%%%%%%%%%%
+%%%%% 
+%%%%%%%%%%%%%%%%%
+%%%%% 
+\AtBeginDocument{\renewcommand{\abstractname}{}}
+%%%%%%%%%%%%%%%%%
                 \title{</xsl:text>
         <xsl:apply-templates select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1]"/>
         <xsl:text>}
@@ -191,6 +197,15 @@ series={}
             </xsl:choose>
         </xsl:for-each>
         <xsl:text> \&amp;</xsl:text>
+    </xsl:template>
+    <xsl:template match="stage">
+        <xsl:apply-templates/>
+        <xsl:text> &amp;</xsl:text>
+    </xsl:template>
+    <xsl:template match="note">
+        <xsl:text>\footcite{</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="ref">
         <xsl:text>\cite{</xsl:text>

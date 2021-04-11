@@ -24,9 +24,11 @@
 \usepackage{hyperref}
 \usepackage{ragged2e}
 \usepackage[backend=biber, bibstyle=verbose, backref=false, hyperref=false, citestyle=authortitle-ibid]{biblatex}
-\addbibresource{/Users/Mac-Pauline/Documents/Texmf/bibtex/bib/Biblio.bib}
+\DeclareFieldFormat{title}{\textit{#1}}
+\DeclareFieldFormat{booktitle}{\textit{#1}}
+\DeclareFieldFormat{journaltitle}{\textit{#1}}
+\addbibresource{Biblio.bib}
 %%%%%%%%
-\addto{\captionsfrench}{\renewcommand{\abstractname}{ }}
 %%%%%%%%
 %%%%%%%%%%%%%%%%
 \usepackage{calc} 
@@ -101,18 +103,19 @@ series={}
 %%%%%
 \firstlinenum*{100000}
 %%%%%%%
-\setlength{\Lcolwidth}{.450\textwidth}
+\setlength{\Lcolwidth}{.430\textwidth}
 \setlength{\Rcolwidth}{.450\textwidth}
 \columnsposition{C}
 \setlength{\beforecolumnseparator}{0.035\textwidth}
 \setlength{\aftercolumnseparator}{0.0001\textwidth}
 \sidenotemargin{left}
-                %%%%%%%%%%%%%%%%%
+%%%%% 
+%%%%%%%%%%%%%%%%%
+%%%%% 
+\AtBeginDocument{\renewcommand{\abstractname}{}}
+%%%%%%%%%%%%%%%%%
                 \title{\textit{Corpus sélectionné des fragments de tragédies de l'époque républicaine}}
-                \author{
-               Pauline
-               Jacsont
-            }
+                \author{}
                 \date{\today}
                 \begin{document}
             
@@ -121,92 +124,2264 @@ series={}
             Texte latin établi et organisé selon les choix de reconstruction et d'édition de \cite{TrRF_I_2012}.\par
             
                \subsection*{Égisthe}
-               \begin{abstract}Source hellène : Sophocle \textit{Αἴγισθος}, Eschyle \textit{Όρεστεια}.\par
-                L'intrigue est proche de l'\textit{Άγαμέμνων} d'Eschyle et
-                  de la version latine de Sénèque: elle se concentre donc sur l'assassinat
-                  d'Agamemnon par Égisthe et Clytemnestre.\par\end{abstract}
-              \begin{pairs} 
-                 \begin{Leftside}
+               \begin{abstract}
+                  Source hellène : Sophocle \textit{Αἴγισθος}, Eschyle
+                        \textit{Όρεστεια}.\par
+                   L'intrigue est proche de l'\textit{Άγαμέμνων} d'Eschyle
+                     et de la version latine de Sénèque: elle se concentre donc sur l'assassinat
+                     d'Agamemnon par Égisthe et Clytemnestre.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza Nam
+                              ut
+                              Pergama &
+                              accensa
+                              et
+                              præda
+                              per
+                              participes
+                              æquiter &
+                     partita
+                              est. \&
+                         \stanza Tum
+                              autem
+                              lasciuum
+                              Nerei
+                              simum
+                              pecus &
+                     ludens
+                              ad
+                              cantum
+                              classem
+                              lustratur... \&
+                         \stanza 
+                     Nemo
+                              hæce
+                              uostrum
+                              ruminetur
+                              mulieri. \&
+                         \stanza 
+                     ...Sollemnitusque
+                              {Sollemnitusque}
+                              deo
+                              litat
+                              laudem
+                              lubens. \&
+                         \stanza ... in
+                              sedes
+                              conlocat
+                              se
+                              regias: &
+                     Clytemnestra
+                              iuxtim
+                              ,
+                              tertias
+                              natæ
+                              occupant. \&
+                         \stanza 
+                     Ipsus
+                              se
+                              in
+                              terram
+                              saucius
+                              fligit
+                              cadens. \&
+                         \stanza Quin
+                              quod
+                              parere
+                              mihi
+                              uos
+                              maiestas
+                              mea &
+                     procat
+                              ,
+                              toleratis
+                              temploque
+                              {temploque}
+                              hanc
+                              deducitis
+                              ? \&
+                         \stanza 
+                     Iamne
+                              {Iamne}
+                              oculos
+                              specie
+                              lætauisti
+                              optabili
+                              ? \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza En réalité, quand Pergame fût &enflammée on eût partagé équitablement &
+                     le butin entre les participants. \&
+                         \stanza Alors, voici la horde enjouée de Nérée, avec son bec aplati, &
+                     qui tourne autour de la flotte en s’amusant des chants [des
+                              marins]... \&
+                         \stanza 
+                     Que personne parmi vous ne rumine [ses pensées] à la femme. \&
+                         \stanza 
+                     Et la solennité extatique offre un éloge au dieu. \&
+                         \stanza . . .il s’assied sur le trône royal : &
+                     à côté Clytemnestre, ses filles occupent les troisièmes [places]. \&
+                         \stanza 
+                     Le blessé se heurte lui-même en tombant à terre. \&
+                         \stanza Comment? Vous ne supportez pas que ma majesté, &
+                     vous demande de m’obéir ? Pourquoi n’emmenez-vous pas celle-ci au
+                              sanctuaire ? \&
+                         \stanza 
+                     N’as-tu pas désormais contenté tes yeux par cette vision convoitée
+                              ? \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+         
+         
+            \section{Nævius}
+            Texte latin établi et organisé selon les choix de reconstruction et d'édition de \cite{SpaltenNaevius}.\par
+            
+               \subsection*{Danæ}
+               \begin{abstract}
+                  Sources hellènes : Eschyle \textit{Δικτυλκοί}; Sophocle
+                        \textit{Ακρισιος}, \textit{Δαναη},
+                     et \textit{Λαρισαῖοι}; Euripide \textit{Δαναη}.\par
+                  Argument: cette tragédie aurait pour sujet la maternité de Danæ ; l’intrigue
+                     pourrait inclure l’intrigue amoureuse entre Jupiter et Danæ, mais aussi son
+                     accouchement et ses conséquences.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza 
+                     
+                              Contemplo
+                              placide
+                              formam
+                              et
+                              faciem
+                              virginis. \&
+                         \stanza 
+                     Omnes
+                              formidant
+                              homines
+                              eius
+                              valentiam
+                              . \&
+                         \stanza 
+                     
+                              Excidit
+                              orationis
+                              omnis
+                              confidentia
+                              . \&
+                         \stanza 
+                     Manubiæ
+                              subpetant
+                              pro
+                              me \&
+                         \stanza 
+                     Suo
+                              sonitu
+                              claro
+                              fulgorivit
+                              Juppiter \&
+                         \stanza 
+                     .
+                              .
+                              .
+                              .
+                              quæ
+                              quondam
+                              fulmine
+                              icit
+                              Iuppiter \&
+                         \stanza 
+                     Eam
+                              nunc
+                              esse
+                              inventam
+                              probris
+                              compotem
+                              Scis
+                              . \&
+                         \stanza 
+                     Desubito
+                              famam
+                              tollunt
+                              ,
+                              si
+                              quam
+                              solam
+                              videre
+                              in
+                              via
+                              . \&
+                         \stanza 
+                     Quin
+                              ,
+                              ut
+                              quisque
+                              est
+                              meritus
+                              ,
+                              præsens
+                              pretium
+                              pro
+                              factis
+                              ferat. \&
+                         \stanza 
+                     .
+                              .
+                              .
+                              indigne
+                              exigor
+                              patria
+                              innocens
+                              . \&
+                         \stanza 
+                     .
+                              .
+                              amnis
+                              niveo
+                              eo
+                              fonte
+                              lavere
+                              me
+                              memini
+                              manum
+                              . \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                     Je considère paisiblement le corps et le visage de la vierge. \&
+                         \stanza 
+                     Tous les hommes redoutent sa force physique. \&
+                         \stanza 
+                     La confiance en toute parole est perdue  \&
+                         \stanza 
+                     Les éclairs qu’ils soient à ma disposition \&
+                         \stanza 
+                     Jupiter a lancé des éclairs avec le bruyant fracas qui est le
+                              sien. \&
+                         \stanza 
+                     ... autrefois, Jupiter les a frappées avec la foudre \&
+                         \stanza 
+                     Maintenant, tu sais que celle qui a obtenu le déshonneur a été
+                              découverte. \&
+                         \stanza 
+                     Ils portent la rumeur subitement, toutes les fois qu’elle est aperçue
+                              seule dans la rue. \&
+                         \stanza 
+                     Eh bien, chacun a mérité qu'il emporte le salaire présent en vertu de
+                              ce qu'il a fait. \&
+                         \stanza 
+                     ... innocente, je suis jugée indignement par ma patrie. \&
+                         \stanza 
+                     .. je me souviens de ma main trempé ici par l'eau jaillissante d'un
+                              fleuve blanc comme la neige. \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Lycurgus}
+               \begin{abstract}
+                  Sources hellènes : Homère l'\textit{Ἰλιάς}; Eschylle
+                        \textit{Λυκουργεια}.\par
+                  Argument : Après avoir été averti de la venue d’un étranger accompagné de
+                     bacchantes, Lycurge décide de chasser ces agitateurs en envoyant ses troupes à
+                     leur poursuite. Des bacchantes sont tuées, d’autres capturées puis emprisonnées
+                     avec Bacchus. Quand le dieu, resté anonyme, comparait au palais, il montre son
+                     pouvoir, et punit ses persécuteurs.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza 
+                     Tuos
+                              qui
+                              celsos
+                              terminos
+                              tutant
+                              .
+                              .
+                              . \&
+                         \stanza 
+                     
+                              Alte
+                              iubatos
+                              angues
+                              in
+                              sese
+                              gerunt
+                              . \&
+                         \stanza 
+                     Quaque
+                              incedunt
+                              ,
+                              omnes
+                              arvas
+                              obterunt
+                              . \&
+                         \stanza 
+                              Vos
+                              ,
+                              qui
+                              regalis
+                              corporis
+                              custodias &agitatis
+                              ,
+                              ite
+                              actutum
+                              in
+                              frundiferos
+                              locos
+                              , &
+                     ingenio
+                              arbusta
+                              ubi
+                              nata
+                              sunt
+                              ,
+                              non
+                              obsitu
+                              . \&
+                         \stanza Alii &Sublime
+                              in
+                              altos
+                              saltus
+                              inlicite
+                              .
+                              .
+                              . &
+                     Ubis
+                              bipedes
+                              volucres
+                              lino
+                              linquant
+                              lumina
+                              . \&
+                         \stanza 
+                              Pergite
+                              , &
+                     Thyrsigeræ
+                              Bacchæ
+                              ,
+                              Bacchico
+                              cum
+                              schemate
+                              . \&
+                         \stanza 
+                     suavisonum
+                              melos \&
+                         \stanza 
+                     Ignotæ
+                              iteris
+                              sumus
+                              ,
+                              tute
+                              scis
+                              .
+                              .
+                              . \&
+                         \stanza Ut
+                              in
+                              venatu
+                              vitulantes
+                              ex
+                              suis &
+                     lucis
+                              nos
+                              mittant
+                              pœnis
+                              decoratas
+                              feris
+                              . \&
+                         \stanza 
+                     Pallis
+                              patagiis
+                              crocotis
+                              malacis
+                              mortualibus
+                              . \&
+                         \stanza 
+                     Iam
+                              ibi
+                              nos
+                              duplicat
+                              advenientis
+                              liberi
+                              timos
+                              pavos
+                              . \&
+                         \stanza Nam
+                              ludere
+                              ut
+                              lætantis
+                              inter
+                              se
+                              vidimus
+                              præter
+                              amnem &
+                     creterris
+                              sumere
+                              aquam
+                              ex
+                              fonte
+                              . \&
+                         \stanza 
+                     Diabathra
+                              in
+                              pedibus
+                              habebat
+                              ,
+                              erat
+                              amictus
+                              epicroco
+                              . \&
+                         \stanza 
+                     Dic
+                              quo
+                              pacto
+                              eum
+                              potiti
+                              :
+                              pugnan
+                              {pugnan}
+                              an
+                              dolis
+                              ? \&
+                         \stanza 
+                     sine
+                              ferro
+                              ut
+                              pecua
+                              manibus
+                              ad
+                              mortem
+                              meant \&
+                         \stanza Ducite &
+                     eo
+                              cum
+                              argutis
+                              linguis
+                              mutas
+                              quadrupedis
+                              . \&
+                         \stanza 
+                     Cave
+                              {sis}
+                              tuam
+                              contendas
+                              iram
+                              contra
+                              cum
+                              ira
+                              Liberi
+                              . \&
+                         \stanza 
+                     Ne
+                              ille
+                              mei
+                              feri
+                              ingeni
+                              iram
+                              atque
+                              animi
+                              acrem
+                              acrimoniam \&
+                         \stanza Oderunt
+                              di
+                              homines
+                              iniuros
+                              . &
+                     —
+                              Egone
+                              {Egone}
+                              an
+                              ille
+                              iniurie
+                              Facimus
+                              ? \&
+                         \stanza 
+                     Ut
+                              videam
+                              Vulcani
+                              opera
+                              hæc
+                              flammis
+                              fieri
+                              flora \&
+                         \stanza 
+                     Late
+                              longeque
+                              longeque
+                              transtros
+                              nostros
+                              fervere \&
+                         \stanza Proinde
+                              huc
+                              Dryante
+                              regem
+                              prognatum
+                              patre
+                              , &
+                     
+                              Lycurgam
+                              cette
+                              ! \&
+                         \stanza 
+                     Vos
+                              qui
+                              astatis
+                              obstinati
+                              .
+                              .
+                              . \&
+                         \stanza 
+                     Se
+                              quasi
+                              amnis
+                              celeris
+                              rapit
+                              ,
+                              sed
+                              tamen
+                              inflexu
+                              flectitur
+                              . \&
+                         \stanza 
+                     
+                              Iam
+                              solis
+                              æstu
+                              candor
+                              cum
+                              liquesceret \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                     Tes troupes qui gardent les hautes frontières ...  \&
+                         \stanza 
+                     Elles portent sur elle bien haut des serpents à crinières. \&
+                         \stanza 
+                     Partout où elles pénètrent, elles piétinent tous les champs. \&
+                         \stanza Vous, qui vous occupez des gardes du corps &royal, avancez immédiatement vers les lieux &
+                     feuillus, où les arbres ont poussé sans avoir été semés. \&
+                         \stanza  Vous autres, attirez-les en hauteur dans les  &hauts pâturages ... &
+                     Où les bipèdes ailés abandonnent la lumière du jour pour le filet. \&
+                         \stanza Continuez, &
+                      Bacchantes munies d'un thyrse, avec l'habillement bachique \&
+                         \stanza 
+                     mélodie suave \&
+                         \stanza 
+                     Nous ignorons le chemin, toi-même, tu le sais ... \&
+                         \stanza De tel sorte qu'ils nous laissent aller vers &
+                     leurs bois sacrés, joyeuse, pendant la chasse, ils nous parent de
+                              châtiments sauvages. \&
+                         \stanza 
+                     En robes, bandeaux ornementaux, robes de couleur safran, vêtements
+                              doux du deuil. \&
+                         \stanza 
+                     Dès lors, l'appréhension, la crainte des arrivants libres, redoublent
+                              en nous. \&
+                         \stanza En effet, nous les avons vues qu'elles jouaient entre elles le long du
+                              ruisseau, qu'elles pui- &
+                     saient l'eau de la source dans des coupes. \&
+                         \stanza 
+                     Il avait des chaussures de femme aux pieds, et était enveloppé d'une
+                              robe de laine fine. \&
+                         \stanza 
+                     Dis comment vous vous êtes emparés de lui : par la force ou par la
+                              ruse ? \&
+                         \stanza 
+                     comme un troupeau qui se dirige vers la mort suivant des mains sans
+                              fers \&
+                         \stanza Conduisez ici &
+                     ces femmes silencieuses avec les quadrupèdes aux langages
+                              expressifs \&
+                         \stanza 
+                     Prends garde, je te prie, de ne pas faire rivaliser ta colère avec
+                              celle de Liber. \&
+                         \stanza 
+                     De peur qu’il ne [ provoque] la colère de mon esprit et l’impétueuse
+                              acrimonie de mon âme  \&
+                         \stanza Les dieux haïssent les hommes injustes &
+                     — Est-ce lui, ou moi qui suis déloyal ? \&
+                         \stanza 
+                     Pour que je voie les oeuvres de Vulcain qui fait des flammes
+                              éclatantes  \&
+                         \stanza 
+                     agiter nos poutres longues et larges \&
+                         \stanza Ainsi donc, montre ici le roi Lycurgue descendant par son père
+                              Dryas. &
+                      \&
+                         \stanza 
+                     Vous qui demeurez là obstinément ... \&
+                         \stanza 
+                     Comme si un fleuve violent l’emportait, mais pourtant, celui-ci se
+                              plie au contour [de la rive]. \&
+                         \stanza 
+                     Dès lors, alors que la neige fond par la chaleur du soleil \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+         
+         
+            \section{Quintus Ennius}
+            Texte latin établi et organisé selon les choix de reconstruction et d'édition de \cite{EnniusLoeb}.\par
+            
+               \subsection*{Achilles}
+               \begin{abstract}
+                  Sources hellènes : Homère l'\textit{Ἰλιάς}; et les
+                     versions du mythe d'Achille d'Aristarque de Tégée, Iophon, Astydamas, Carcinus,
+                     Cléophon (?), Evaretus, et Diogène de Sinope. \par
+                  Argument: furieux d’avoir été privé de son butin de guerre, Achille se retire
+                     sous sa tente et refuse de poursuivre le combat. Agamemnon, subissant de
+                     nombreuses défaites, décide de lui envoyer une ambassade afin de convaincre le
+                     héros de retourner combattre auprès des Grecs. La tragédie s’achevait
+                     certainement par la mort de Patrocle qui suscitera le retour d’Achille parmi
+                     les guerriers grecs.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza 
+                     form
+                              Ita
+                              magni
+                              fluctus
+                              eiciebantur
+                              .
+                              .
+                              . \&
+                         \stanza .
+                              .
+                              .
+                              per
+                              ego
+                              deum
+                              sublimas
+                              subices &
+                     Umidas
+                              ,
+                              unde
+                              oritur
+                              imber
+                              sonitu
+                              sævo
+                              [
+                              et
+                              spiritu
+                              . \&
+                         \stanza 
+                     
+                              Prolato
+                              ære
+                              astitit \&
+                         \stanza 
+                     .
+                              .
+                              .
+                              nam
+                              consiliis
+                              obvarant
+                              ,
+                              quibus
+                              tam
+                              concedit
+                              hic
+                              ordo
+                              . \&
+                         \stanza Quo
+                              nunc
+                              incerta
+                              re
+                              atque
+                              inorata
+                              gradum &
+                     regredere
+                              conare \&
+                         \stanza 
+                     Serva
+                              cives
+                              ,
+                              defende
+                              hostes
+                              ,
+                              cum
+                              potes
+                              [
+                              defendere \&
+                         \stanza 
+                     Interea
+                              mortales
+                              inter
+                              sese
+                              pugnant
+                              ,
+                              proeliant
+                              . \&
+                         \stanza summam
+                              tu
+                              tibi &pro
+                              mala
+                              vita
+                              famam
+                              extolles
+                              ,
+                              [
+                              et
+                              ]
+                              pro
+                              bona
+                              partam
+                              gloriam
+                              . &
+                     
+                              Male
+                              volentes
+                              [
+                              enim
+                              ]
+                              famam
+                              tollunt
+                              ,
+                              bene
+                              volentes
+                              gloriam
+                              . \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                      Ainsi les grands flots étaient jetés ...  \&
+                         \stanza  ... Moi, à travers les sublimes marche- &
+                     pieds humides des dieux, de là les pluies naissent d’un souffle et
+                              d’un retentissement impétueux. \&
+                         \stanza 
+                     Il s’est tenu debout avec l’airain porté en avant \&
+                         \stanza 
+                     ... car ils font obstacle aux résolutions, si par elles l’ordre
+                              s’éloigne d’ici. \&
+                         \stanza Maintenant, là où l’événement est incertain et méconnu, tu tentes de
+                              revenir sur &
+                     tes pas \&
+                         \stanza 
+                     Sauve les citoyens, repousse les ennemies puisque tu peux les
+                              repousser \&
+                         \stanza 
+                     Pendant que les mortels combattent entre eux, ils livrent bataillent.
+                            \&
+                         \stanza Tu élèveras le plus haut sommet pour toi- &même, la renommée en faveur d’une mauvaise vie [ et] la gloire
+                              engendrée pour une bonne. &
+                     [ En réalité], ceux qui veulent le mal élèvent la renommée, ceux qui
+                              veulent le bien la gloire. \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Alcmæon}
+               \begin{abstract}
+                  Sources hellènes : Homère l'\textit{Ὀδύσσεια}; Euripide
+                        \textit{Ἀλκμαίων ὁ διὰ Κορίνθου} et \textit{Ἀλκμαίων ὁ διὰ Ψωφῖδος}; ainsi que les versions
+                     fragmentaires de Timothée d'Athènes, Astydamas II, Théodecte de Phasélis,
+                     Evaretus et Nicomaque d'Alexandrie.\par
+                   Argument: Alcméon, tue sa mère afin de venger son père, Amphiaraos: celui-ci
+                     avait été contraint par sa femme de participer à la guerre contre des Épigones,
+                     le condamnant à une mort certaine. À la suite de ce matricide, Alcméon sera
+                     alors poursuivi par les Furies : celles-ci pousseront le héros à remettre en
+                     question son acte.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza Multis
+                              sum
+                              modis
+                              circumventus
+                              ,
+                              morbo
+                              ,
+                              exilio
+                              atque
+                              inopia
+                              ; &Tum
+                              pavor
+                              sapientiam
+                              omnem
+                              mi
+                              exanimato
+                              expectorat
+                              . &†
+                              Alter
+                              †
+                              terribilem
+                              minatur
+                              vitæ
+                              cruciatum
+                              et
+                              necem
+                              ; &quæ
+                              nemo
+                              est
+                              tam
+                              firmo
+                              ingenio
+                              et
+                              tanta
+                              [
+                              confidentia
+                              , &
+                     quin
+                              refugiat
+                              timido
+                              sanguen
+                              atque
+                              exalbescat
+                              metu
+                              . \&
+                         \stanza 
+                     Sed
+                              mihi
+                              ne
+                              utiquam
+                              cor
+                              consentit
+                              cum
+                              oculorum
+                              aspectu
+                              .
+                              . \&
+                         \stanza .
+                              .
+                              .
+                              .
+                              unde
+                              hæc
+                              flamma
+                              oritur
+                              ? &{
+                              .
+                              .
+                              .
+                              } &Incedunt
+                              ,
+                              incedunt
+                              :
+                              adsunt
+                              adsunt
+                              ,
+                              me
+                              [
+                              expetunt &.
+                              {
+                              .
+                              .
+                              .
+                              } &Fer
+                              mi
+                              auxilium
+                              ,
+                              pestem
+                              abige
+                              a
+                              me
+                              , &flammiferam
+                              hanc
+                              vim
+                              ,
+                              quæ
+                              me
+                              excruciat
+                              ; &Cæruleæ
+                              incinctæ
+                              igni
+                              incedunt
+                              , &circumstant
+                              cum
+                              ardentibus
+                              tædis
+                              . &{
+                              .
+                              .
+                              .
+                              } &Intendit
+                              crinitus
+                              Apollo &Arcum
+                              auratum
+                              ,
+                              luna
+                              innixus
+                              , &
+                     Diana
+                              facem
+                              iacit
+                              a
+                              læva
+                              . \&
+                         \stanza 
+                     factum
+                              est
+                              iam
+                              diu \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza Par bien des manières, je suis entouré par la maladie, l’exil et le
+                              dénuement. &Alors l’effroi bannit de mon esprit toute prudence qui m’épuise. &Quelqu’un menace la vie d’un terrible supplice et de meurtre; &tel que personne n’a un esprit si ferme et tant de confiance, &
+                     que son sang ne recule pas devant l’inquiétude et qu'il ne pâlit pas
+                              face à l’anxiété. \&
+                         \stanza 
+                     Mais mon cœur n’est nullement d’accord avec la vision de mes yeux.
+                            \&
+                         \stanza ... d’où naît cette flamme ? &\{...\} &Elles arrivent, elles arrivent, elles sont là, elles sont là, elles
+                              cherchent à m’attendre &\{...\} &Rapporte-moi de l’aide, éloigne de moi ce &fléau, cette puissance enflammée qui me torture; de couleur azur,
+                              elles s’avancent &ceintes par le feu,  &elles se tiennent de toutes &parts avec des torches ardentes. &\{...\} &Apollon à la longue chevelure bande &
+                     l’arc doré, s’appuyant sur le croissant Diane lance une torche de la
+                              main gauche \&
+                         \stanza 
+                     Cela a été fait il y a déjà longtemps. \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Alexandrus}
+               \begin{abstract}
+                  Sources hellènes : Homère l'\textit{Ὀδύσσεια}; \textit{Ἀλέξανδρος} de Sophocle ainsi que la version
+                     d'Euripide, \textit{Ἀλκμαίων ὁ διὰ Ψωφῖδος}, et Nicomaque
+                     d'Alexandrie \textit{τροίας}.\par
+                  Argument: ce drame se concentre sur l’enfance de Paris: son père commande son
+                     assassinat à la suite du rêve prémonitoire que fait sa femme, Hécube, qui le
+                     lie à la destruction de Troie . Abandonné sur le mont Ida par les serviteurs du
+                     palais, l’enfant est recueilli par des bergers qui le nomment Alexandre. Devenu
+                     adulte il participe aux jeux organisés par Priam, et y vainc ses frères.
+                     Ceux-ci n’acceptent pas d’avoir été battus par un berger; l’un d’eux, Déiphobe
+                     entreprend même de le tuer. Cassandre intervient, et révèle la véritable
+                     identité du vainqueur ainsi que la destruction future de Troie. \par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza Iam
+                              dudum
+                              ab
+                              ludis
+                              animus
+                              atque
+                              aures
+                              [
+                              avent &
+                     avide
+                              expectantes
+                              nuntium
+                              . \&
+                         \stanza 
+                     Qua
+                              propter
+                              Parim
+                              pastores
+                              nunc
+                              Alexandrum
+                              vocant
+                              .
+                              .
+                              . \&
+                         \stanza 
+                     †
+                              amidio
+                              †
+                              purus
+                              putus
+                              . \&
+                         \stanza Hominem
+                              appellat
+                              :
+                              quid
+                              lascivis
+                            &
+                     stolide
+                              ?
+                              Non
+                              intellegit
+                              . \&
+                         \stanza 
+                     Volans
+                              de
+                              cælo
+                              cum
+                              corona
+                              et
+                              tæniis \&
+                         \stanza Multi
+                              alii
+                              adventant
+                              ,
+                              paupertas
+                              quorum &
+                     obscurat
+                              nomina
+                              . \&
+                         \stanza O
+                              lux
+                              Troiæ
+                              ,
+                              germane
+                              Hector
+                              ; &quid
+                              ita
+                              cum
+                              tuo
+                              lacerato
+                              corpore
+                              , &
+                     miser
+                              es
+                              ,
+                              aut
+                              qui
+                              te
+                              sic
+                              respectantibus
+                              tractavere
+                              nobis
+                              ? \&
+                         \stanza Nam
+                              maximo
+                              saltu
+                              superavit
+                              gravidus
+                              armatis
+                              equus
+                              , &
+                     Suo
+                              qui
+                              partu
+                              ardua
+                              perdat
+                              Pergama
+                              . \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza Depuis longtemps, l’âme et les oreilles désirent avidement et
+                              attendent une nouvelle &
+                     des jeux. \&
+                         \stanza 
+                     Pour cette raison, les bergers ont désormais appelé Paris, Alexandre .
+                              . \&
+                         \stanza 
+                     ? absolument pur \&
+                         \stanza Il s’adresse à l’homme : pourquoi  &
+                      badinez-vous sottement? Il ne comprend pas. \&
+                         \stanza 
+                     Volant en haut du ciel avec une couronne et des bandelettes  \&
+                         \stanza Beaucoup d’autres approchent, dont la  &
+                     pauvreté obscurcit leurs noms. \&
+                         \stanza  Ô lumière de Troie, ô authentique Hector; &pourquoi es-tu ainsi misérable avec ton corps lacéré ? &
+                     ou bien, quels hommes t’ont traité ainsi quand nous avions les yeux
+                              tournés ?  \&
+                         \stanza De fait, le cheval, lesté avec des armes, abattu par son très grand
+                              saut qui détruit &
+                     les forteresses de Pergame avec sa descendance. \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Andromacha Æchmalotis}
+               \begin{abstract}
+                  Sources hellènes : Homère l'\textit{Ἰλιάς}; Euripide
+                        \textit{Ἀνδρομάχη}, \textit{Ἑκάβη}
+                     et \textit{Τρῳάδες}; Antiphon \textit{Ἀνδρομάχη}.\par
+                  Argument: l’intrigue de cette tragédie se situe au moment de la chute de Troie
+                     : la pièce développe les lamentations d’Andromaque qui atteignent leur
+                     apothéose lors du meurtre d’Astyanax. \par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza Vidi
+                              ,
+                              videre
+                              quod
+                              me
+                              passa
+                              ægerrume
+                              , &
+                     Hectorem
+                              curru
+                              quadriiugo
+                              raptarier \&
+                         \stanza 
+                              Ex
+                              opibus
+                              summis
+                              opis
+                              egens
+                              ,
+                              Hector
+                              ,
+                              [
+                              tuæ &{
+                              .
+                              .
+                              .
+                              } &Quid
+                              petam
+                              præsidi
+                              aut
+                              exequar
+                              ?
+                              quove
+                              {quove}
+                              [
+                              nunc &auxilio
+                              aut
+                              exili
+                              aut
+                              fugæ
+                              freta
+                              sim
+                              ? &Arce
+                              et
+                              urbe
+                              orba
+                              sum
+                              .
+                              Quo
+                              accedam
+                              ?
+                              [
+                              Quo
+                              applicem
+                              ? &Cui
+                              nec
+                              aræ
+                              patriæ
+                              domi
+                              stant
+                              ,
+                              fractæ
+                              et
+                              [
+                              disiectæ
+                              iacent
+                              ; &fana
+                              flamma
+                              deflagrata
+                              ,
+                              tosti
+                              alti
+                              stant
+                              parietes &Deformati
+                              atque
+                              abiete
+                              crispa
+                              .
+                              .
+                              . &{
+                              .
+                              .
+                              .
+                              } &O
+                              pater
+                              ,
+                              o
+                              patria
+                              ,
+                              o
+                              Priami
+                              domus
+                              , &Sæptum
+                              altisono
+                              cardine
+                              templum
+                              ! &Vidi
+                              ego
+                              te
+                              adstante
+                              ope
+                              barbarica &tectis
+                              cælatis
+                              laqueatis
+                              , &auro
+                              ebore
+                              instructam
+                              regifice. &{
+                              .
+                              .
+                              .
+                              } &Haec
+                              omnia
+                              vidi
+                              inflammari &,
+                              Priamo
+                              vi
+                              vitam
+                              evitari, &
+                     Iovis
+                              aram
+                              sanguine
+                              turpari \&
+                         \stanza 
+                     Acherusia
+                              templa
+                              alta
+                              Orci
+                              salvete
+                              infera
+                              .
+                              .
+                              . \&
+                         \stanza 
+                     Andromachæ
+                              nomen
+                              qui
+                              indidit
+                              ,
+                              recte
+                              [
+                              indidit
+                              aut
+                              Alexandrum
+                              .
+                              .
+                              . \&
+                         \stanza 
+                     di
+                              .
+                              .
+                              .
+                              on
+                              est
+                              :
+                              Nam
+                              mussare
+                              si
+                              .
+                              .
+                              . \&
+                         \stanza 
+                     Quid
+                              fit
+                              ?
+                              seditio
+                              tabetne
+                              {tabetne}
+                              ,
+                              an
+                              numeros
+                              augificat
+                              suos
+                              ? \&
+                         \stanza 
+                     Quantis
+                              cum
+                              ærumnis
+                              illum
+                              exanclavi
+                              diem \&
+                         \stanza .
+                              .
+                              .
+                              annos
+                              multos
+                              longinque
+                              domo &
+                     bellum
+                              gerentes
+                              summum
+                              summa
+                              industria \&
+                         \stanza Nam
+                              ubi
+                              introducta
+                              est
+                              ,
+                              puerumque
+                              {puerumque}
+                              ,
+                              ut
+                              [
+                              laverent
+                              ,
+                              locant &
+                     In
+                              clupeo \&
+                         \stanza 
+                     Nam
+                              neque
+                              irati
+                              neque
+                              blandi
+                              quicquam
+                              [
+                              sincere
+                              sonunt \&
+                         \stanza .
+                              .
+                              .
+                              sed
+                              quasi
+                              ferrum
+                              aut
+                              lapis &
+                     durat
+                              ,
+                              rarenter
+                              gemitum
+                              †
+                              conatur
+                              trabem
+                              † \&
+                         \stanza 
+                     rapit
+                              ex
+                              alto
+                              naves
+                              velivolas \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                      \&
+                         \stanza J’ai vu que j’ai enduré de voir avec la plus grande souffrance &
+                     Hector être emporté par un quadrige \&
+                         \stanza d’après les plus grands secours, ayant besoin de ton secours,
+                              Hector &\{...\} &Quelle protection dois-je solliciter ou poursuivre ? Ou à présent, en
+                              quelle aide, l’exil,  &ou la fuite, puis-je compter ? &Je suis orpheline de ville et de citadelle. Où dois-je aller ? Sur qui
+                              puis-je m’adosser ?  &Moi, à qui ni les hôtels paternels ni le foyer ne subsistent:
+                              dispersés et brisés, ils sont en ruines;  &les temples consumés par les flammes, les hauts murs brûlés et altérés
+                              subsistent grâce &au sapin tordu... &\{...\} &Ô père, ô patrie, ô maison de Priam, ô temple  &enceint d’une ligne sublime qui résonne &fort. Je t’ai vu quand le soutien se tenait  &aux côtés des étrangers avec tes toits sculptés et lambrissés, pourvu
+                              royalement avec de l’or et de l’ivoire. &\{...\} &J’ai vu toutes ces choses être incendiées, &la vie de Priam être ôtée par la force, &
+                     l’autel de Jupiter être souillé par le sang \&
+                         \stanza 
+                     Profonds sanctuaires achérusien d’Orcus, salutations...  \&
+                         \stanza 
+                     Celui qui a donné le nom d’Andromaque l’a donné convenablement, ou
+                              Alexandre … \&
+                         \stanza 
+                     les dieux … [ ?] est, en vérité taire si …  \&
+                         \stanza 
+                     Qu’arrive-t-il ? Est-ce que le soulèvement se désagrège ? Ou est-ce
+                              qu’il accroît leurs effectifs ? \&
+                         \stanza 
+                     Avec quelles grandes peines ai-je enduré ce jour \&
+                         \stanza  ... depuis de nombreuses années, loin du &
+                     foyer, puisqu’ ils accomplissent une guerre importante avec la plus
+                              grande application  \&
+                         \stanza En réalité, lorsqu’elle a été conduite à l’intérieur, et comme ils
+                              lavaient l’enfant, ils &
+                     le placent sur le bouclier \&
+                         \stanza 
+                     De fait ni les impétueux, ni les flatteurs, ne clament quelque chose
+                              sincèrement \&
+                         \stanza ... mais, comme la pierre endurcit le fer,  &
+                     il se prépare à gémir rarement à la massue  \&
+                         \stanza 
+                     il emporte les voiliers en provenance du large \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Andromeda}
+               \begin{abstract}
+                  Sources hellènes : les versions d'\textit{Ἀνδρομέδα} de
+                     Sophocle, Euripide, Lycophron, Phrynichos.\par
+                   Argument: cassiopée, reine de l’Éthiopie, se targue d’avoir une fille plus
+                     belle que les Néréides : son excès d’orgueil offense Neptune qui inonde les
+                     côtes éthiopiennes et envoie un monstre marin. Désespéré, le roi consulte
+                     l’oracle d’Ammon qui révèle que seul le sacrifice d’Andromède au monstre pourra
+                     faire cesser le fléau. Celle-ci est alors enchaînée à un rocher.\par
+                   La critique \footcite{voir\cite{EnniusLoeb}, p.41} suppose
+                     qu’Ennius suit précisément l’intrigue du drame d’Euripide: la pièce
+                     commencerait alors qu’Andromède se lamente attendant sa mort sur un rocher ;
+                     puis arrive Persée tombant éperdument amoureux de la belle, il décide de la
+                     sauver en combattant le monstre qui met en péril son bonheur.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza quæ
+                              cava
+                              cæli &
+                     signitenentibus
+                              conficis
+                              bigis \&
+                         \stanza 
+                     Liberum
+                              quæsendum
+                              causa
+                              familiæ
+                              matrem
+                              tuæ
+                              . \&
+                         \stanza 
+                     Scrupeo
+                              investita
+                              saxo
+                              ,
+                              atque
+                              ostreis
+                              squamæ
+                              scabrent
+                              . \&
+                         \stanza .
+                              .
+                              .
+                              circum
+                              sese
+                              urvat
+                              ad
+                              pedes, &
+                     
+                              a
+                              terra
+                              quadringentos
+                              caput \&
+                         \stanza 
+                     .
+                              corpus
+                              contemplatur
+                              ,
+                              unde
+                              corporaret
+                              [
+                              vulnere \&
+                         \stanza 
+                     .
+                              .
+                              .
+                              rursus
+                              prosus
+                              reciprocat
+                              fluctus
+                              feram \&
+                         \stanza 
+                              .
+                              .
+                              .
+                              .
+                              alia
+                              fluctus
+                              differt
+                              dissupat
+                              , &
+                     
+                              visceratim
+                              membra
+                              ,
+                              maria
+                              salsa
+                              spumant
+                              sanguine
+                              . \&
+                         \stanza 
+                     A
+                              filiis
+                              propter
+                              te
+                              objecta
+                              sum
+                              innocens
+                              [
+                              Nerei
+                              . \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza toi qui parcours les profondeurs du ciel &
+                     avec ton char étoilé \&
+                         \stanza 
+                     Pour demander des enfants à la mère de ta famille.  \&
+                         \stanza 
+                     Revêtus par une roche revêche, et les écailles sont hérissées par des
+                              huîtres.  \&
+                         \stanza ... autour de lui, il trace le sillon d’enceinte &
+                     de la capitale jusqu’à quatre cents pieds du sol \&
+                         \stanza 
+                     il considère le corps, là où il pourrait le tuer par une plaie  \&
+                         \stanza 
+                     Le flot fait osciller la bête d’avant en arrière \&
+                         \stanza Le flot disperse en lambeaux les autres mem- &
+                     bres, les océans salés écument du sang. \&
+                         \stanza 
+                     À cause de toi, j’ai été exposée, innocente, aux filles de Nérée. \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Herctor_lytra}
+               \begin{abstract}
+                   Sources hellènes : Homère l'\textit{Ἰλιάς}; Eschyle
+                        \textit{Φρύγες ἢ Ἕκτορος Λύτρα}
+                  \par
+                   Argument: \textit{Le départ d'Hector} se concentre sur de la rançon
+                     qu’offre Priam à Achille en échange de la dépouille de son fils Hector. Les
+                     fragments ne permettent pas de décrire précisément le fil de la tragédie. \par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza 
+                     quæ
+                              mea
+                              comminus
+                              machæra
+                              atque
+                              hasta
+                              †
+                              hospius
+                              manu† \&
+                         \stanza 
+                     sublime
+                              iter
+                              quadrupedantes
+                              flammam
+                              [
+                              halitantes \&
+                         \stanza Nos
+                              quiescere
+                              æquum
+                              est
+                              ?
+                              nomus
+                              ambo &
+                     Ulixem \&
+                         \stanza At
+                              ego
+                              ,
+                              omnipotens &
+                     
+                              ,
+                              ted
+                              exposco
+                              ,
+                              ut
+                              hoc
+                              consilium
+                              Achivis
+                              auxilio
+                              fuat
+                              . \&
+                         \stanza 
+                     .
+                              .
+                              .
+                              inferum
+                              vastos
+                              specus \&
+                         \stanza Hector
+                              vi
+                              summa
+                              armatos
+                              educit
+                              foras &
+                     ,
+                              castrisque
+                              {castrisque}
+                              castra
+                              ultro
+                              iam
+                              conferre
+                              occupat \&
+                         \stanza Melius
+                              est
+                              virtute
+                              ius
+                              :
+                              nam
+                              sæpe
+                              virtutem
+                              mali
+                              , &
+                     nanciscuntur
+                              ;
+                              ius
+                              atque
+                              æcum
+                              se
+                              a
+                              malis
+                              spernit
+                              procul
+                              . \&
+                         \stanza †
+                              ducet
+                              quadrupedum
+                              iugo
+                              invitam
+                              doma
+                              infrena &
+                     et
+                              iuge
+                              valida
+                              quorum
+                              tenacia
+                              infrenari
+                              minis
+                              †
+                              . \&
+                         \stanza 
+                     Constitit
+                              ,
+                              credo
+                              ,
+                              Scamander
+                              ;
+                              arbores
+                              vento
+                              vacant \&
+                         \stanza 
+                     
+                              Qui
+                              cupiant
+                              dare
+                              arma
+                              Achilli
+                              †
+                              ut
+                              ipse
+                              †
+                              ,
+                              cunctent \&
+                         \stanza .
+                              .
+                              .
+                              per
+                              vos
+                              et
+                              vostrorum &
+                     imperium
+                              et
+                              fidem
+                              ,
+                              Myrmidonum
+                              vigiles
+                              ,
+                              commiserescite
+                              ! \&
+                         \stanza 
+                     Quid
+                              hoc
+                              hic
+                              clamoris
+                              ?
+                              quid
+                              tumulti
+                              est
+                              ?
+                              nomen
+                              qui
+                              usurpat
+                              meum? \&
+                         \stanza 
+                     Quid
+                              in
+                              castris
+                              strepiti
+                              est
+                              ? \&
+                         \stanza 
+                     Æs
+                              sonit
+                              ,
+                              franguntur
+                              hastæ
+                              ,
+                              terra
+                              sudat
+                              sanguine \&
+                         \stanza 
+                     Sæviter
+                              fortunam
+                              ferro
+                              cernunt
+                              de
+                              victoria
+                              . \&
+                         \stanza ecce
+                              autem
+                              caligo
+                              oborta
+                              est
+                              ,
+                              omnem
+                              prospectum
+                              abstulit &
+                     derepente
+                              ;
+                              contulit
+                              sese
+                              in
+                              pedes \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                     que sans délai le coutelas et le sabre te payent en retour par ma
+                              main \&
+                         \stanza 
+                      Les chevaux émanent du feu vers leur route céleste \&
+                         \stanza Quand est-ce que nous nous reposons ? Nous reconnaissons ensemble
+                              Ulysse. &
+                      \&
+                         \stanza Mais moi, tout-puissant, je te demande que &
+                      que cette mesure soit une aide pour tous les Grecs. \&
+                         \stanza 
+                     les immenses cavernes du chtonien \&
+                         \stanza Hector chasse les hommes armés dehors &
+                     par une puissance absolue, et déjà il s’occupe de réunir les camps
+                              au-delà des camps \&
+                         \stanza La justice est mieux que la bravoure : de fait, les malfaiteurs
+                              acquièrent souvent la &
+                     bravoure ; et la justice impartiale s’éloigne loin des
+                              malfaiteurs. \&
+                         \stanza Elle conduira le cheval par le joug, dompte, malgré elle, les
+                              impétueux, et les  &
+                     vigoureux, parmi lesquels, rétifs au joug, sont domptés par les
+                              menaces. \&
+                         \stanza 
+                     Je crois que le Scamandre s’est stabilisé : les arbres sont à l’abri
+                              du vent. \&
+                         \stanza 
+                     Ceux-ci désirent que lui-même donne les armes d’Achille si bien qu’ils
+                              hésitent \&
+                         \stanza ... par vous, par votre autorité et votre &
+                     fidélité, patrouilles des Myrmidons, ayez pitié ! \&
+                         \stanza 
+                     Pourquoi ce cri ici ? Pourquoi y a-t-il du bruit ? Qui usurpe mon nom
+                              ?  \&
+                         \stanza 
+                     Pourquoi y a-t-il du vacarme dans les camps ?  \&
+                         \stanza 
+                     Le bronze sonne, les lances sont rompues, la terre ruisselle de
+                              sang \&
+                         \stanza 
+                     Ils distinguent avec rigueur la chance par le fer de la victoire. \&
+                         \stanza  Mais voilà que le brouillard est apparu, il a emporté toute
+                              perspective ; il engage le  &
+                     combat. \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Hecuba}
+               \begin{abstract}
+                  Sources hellènes : Homère l'\textit{Ἰλιάς}; Euripide
+                        \textit{Ἑκάβη} et \textit{Τρῳάδες}.\par
+                  Argument: l’action se situe après la chute de Troie, et se concentre sur le
+                     sort subi par la reine Hécube. Ainsi, la tragédie rapporte ses lamentations et
+                     sa capture par Ulysse.\par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                         \stanza 
+                     O
+                              magna
+                              templa
+                              cælitum
+                              commixta
+                              [
+                              stellis
+                              splendidis
+                              ! \&
+                         \stanza Hæc
+                              tu
+                              etsi
+                              perverse
+                              dices
+                              ,
+                              facile
+                              Achivos
+                              flexeris
+                              ; &nam
+                              opulenti
+                              cum
+                              locuntur
+                              pariter
+                              atque
+                              ignobiles
+                              , &
+                     eadem
+                              dicta
+                              eademque
+                              {eademque}
+                              oratio
+                              æqua
+                              non
+                              æque
+                              valet \&
+                         \stanza 
+                     vide
+                              hunc
+                              ,
+                              meæ
+                              in
+                              quem
+                              lacrumæ
+                              guttatim
+                              cadunt \&
+                         \stanza 
+                     Juppiter
+                              tibi
+                              summe
+                              tandem
+                              male
+                              re
+                              gesta
+                              gratulor
+                              . \&
+                         \stanza Set
+                              numquam
+                              scripstis
+                              ,
+                              qui
+                              parentem
+                              [
+                              aut
+                              hospitem &
+                     
+                              necasset
+                              quo
+                              quis
+                              cruciatu
+                              perbiteret \&
+                         \stanza 
+                     
+                              .
+                              .
+                              .
+                              undantem
+                              salum \&
+                         \stanza 
+                     
+                              Heume
+                              miseram
+                              !
+                              interii
+                              :
+                              pergunt
+                              lavere
+                              sanguen
+                              sanguine
+                              . \&
+                         \stanza 
+                     Quæ
+                              tibi
+                              in
+                              concubio
+                              verecunde
+                              et
+                              modice
+                              morem
+                              gerit
+                              . \&
+                         \stanza .
+                              .
+                              .
+                              miserete
+                              anuis
+                              : &
+                     
+                              date
+                              ferrum
+                              ,
+                              qui
+                              me
+                              anima
+                              privem \&
+                         \stanza Senex
+                              sum
+                              :
+                              utinam
+                              mortem
+                              oppetam
+                              ,
+                              [
+                              prius
+                              quam
+                              evenat &
+                     quod
+                              in
+                              pauperie
+                              mea
+                              senex
+                              graviter
+                              gemam
+                              ! \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                     Ô grands sanctuaires des cieux, mêlés [aux étoiles étincelantes! \&
+                         \stanza Bien que, tu diras cela de travers, tu auras incliné aisément les
+                              grecques; &car les hommes opulents parlent de la même manière que ceux de basse
+                              naissance, &
+                     avec les mêmes mots et les mêmes paroles, qui n’ont pas la même
+                              valeur \&
+                         \stanza 
+                     Regarde celui sur qui mes larmes tombent goutte à goutte \&
+                         \stanza 
+                      Ô Jupiter souverain, en fin de compte, je te loue pour l’événement
+                              funeste accompli. \&
+                        
+                           Mais vous n’avez jamais écrit par quel supplice devait périr celui qui
+                              avait tué un 
+                           parent ou un hôte
+                        
+                         \stanza 
+                     ... la mer agitée  \&
+                         \stanza 
+                     Hélas, comme je suis misérable ! J’agonise! Ils continuent de laver le
+                              sang par le sang. \&
+                         \stanza 
+                     Laquelle accomplit pendant l’union charnelle tes désirs avec retenue
+                              et tempérance \&
+                        
+                           Ayez pitié d’une vieille femme: 
+                           donnez-moi le glaive qui m’ôtera la vie
+                        
+                        
+                           Je suis une vieille femme : si seulement je pouvais affronter la mort
+                              avant que cela 
+                           n’arrive. parce que moi, en tant que vieille femme, je me lamenterai
+                              dans la pauvreté 
+                        
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+            
+               \subsection*{Iphigenia}
+               \begin{abstract}
+                   Sources hellènes : Homère l'\textit{Ἰλιάς}; Euripide
+                        \textit{Ἰφιγένεια ἡ ἐν Αὐλίδι}, \\textit{Ἰφιγένεια ἐν Ταύροις}; Eschyle \textit{Ὀρέστεια}, \textit{Ἰφιγένεια}?; Sophocle \textit{Ἰφιγένεια}?..\par
+                  Argument: cette tragédie relate le sacrifice d’Iphigénie, que son père commande
+                     afin d'obtenir les vents favorables à la navigation. Elle se constitue d’un
+                     passage où Achille critique les astrologues, de dialogues entre Agamemnon et
+                     une servante, et d'une altercation entre Agamemnon et Ménélas. \par
+               \end{abstract}
+               \begin{pairs}
+                  \begin{Leftside}
+			\beginnumbering
+			\setcounter{stanzaL}{0}
+                     
+                        
+                         \stanza 
+                     lalal \&
+                        
+                        
+                        
+                        
+                         \stanza 
+                     —
+                              Achilles
+                              —
+                              Astrologorum
+                              signa
+                              in
+                              cælo
+                              quid
+                              sit
+                              observationis
+                              ,
+                              cum
+                              Capra
+                              aut
+                              Nepa
+                              aut
+                              exoritur
+                              nomen
+                              aliquod
+                              belvarum
+                              :
+                              quod
+                              est
+                              ante
+                              pedes
+                              ,
+                              nemo
+                              spectat
+                              ;
+                              cæli
+                              scrutantur
+                              plagas
+                              .
+                              Quid
+                              noctis
+                              videtur
+                              ?
+                              —
+                              in
+                              altisono
+                              cæli
+                              clipeo
+                              Temo
+                              superat
+                              stellas
+                              sublimen
+                              agens
+                              etiam
+                              atque
+                              etiam
+                              noctis
+                              iter
+                              .
+                              —
+                              Chorus
+                              —
+                              Otio
+                              qui
+                              nescit
+                              uti
+                              ,
+                              plus
+                              negoti
+                              habet
+                              ,
+                              quam
+                              cum
+                              quis
+                              negotium
+                              in
+                              negotio
+                              .
+                              Nam
+                              cui
+                              ,
+                              quod
+                              agat
+                              institutum
+                              est
+                              ,
+                              non
+                              ullo
+                              negotio
+                              ;
+                              id
+                              agit
+                              ,
+                              id
+                              studet
+                              ,
+                              ibi
+                              mentem
+                              atque
+                              animum
+                              delectat
+                              suum
+                              .
+                              Otioso
+                              in
+                              otio
+                              animus
+                              nescit
+                              quid
+                              velit
+                              .
+                              Hoc
+                              idem
+                              est
+                              :
+                              em
+                              neque
+                              domi
+                              nunc
+                              nos
+                              nec
+                              militiæ
+                              sumus
+                              :
+                              imus
+                              huc
+                              ,
+                              hinc
+                              illuc
+                              ;
+                              cum
+                              illuc
+                              ventum
+                              est
+                              ,
+                              ire
+                              illinc
+                              lubet
+                              .
+                              Incerte
+                              errat
+                              animus
+                              ,
+                              præter
+                              propter
+                              vitam
+                              vivitur
+                              .
+                              —
+                              Iphigenia
+                              —
+                              Acherontem
+                              obibo
+                              ,
+                              ubi
+                              Mortis
+                              thesauri
+                              objacent
+                              procede
+                              :
+                              gradum
+                              proferre
+                              pedum
+                              nitere
+                              :
+                              cessas
+                              ,
+                              o
+                              fide
+                              Menelaus
+                              me
+                              objurgat
+                              ?
+                              id
+                              meis
+                              rebus
+                              [
+                              regimen
+                              restitat
+                              .
+                              quæ
+                              nunc
+                              abs
+                              te
+                              viduæ
+                              et
+                              vastæ
+                              virgines
+                              sunt
+                            \&
+                     
+                  \endnumbering
+		\end{Leftside}
+                  \begin{Rightside}
+			\beginnumbering
+			\numberstanzafalse
+                     
+                         \stanza 
+                      \&
+                     
+                  \endnumbering
+		\end{Rightside}
+               \end{pairs}
+	\Columns
+            
+         
+
+         
+            Lycurgus
+            
+               \textit{}
+                  \textit{}.\par
+               \par
+            
+            \begin{pairs}
+               \begin{Leftside}
 			\beginnumbering
 			\setcounter{stanzaL}{0}
                   
-                      \stanza Nam
-                           ut
-                           Pergama &
-                           accensa
-                           et
-                           præda
-                           per
-                           participes
-                           æquiter &
-                     partita
-                           est. \&
-                      \stanza Tum
-                           autem
-                           lasciuum
-                           Nerei
-                           simum
-                           pecus &
-                     ludens
-                           ad
-                           cantum
-                           classem
-                           lustratur... \&
                       \stanza 
-                     Nemo
-                           hæce
-                           uostrum
-                           ruminetur
-                           mulieri. \&
-                      \stanza 
-                     ...Sollemnitusque
-                           {Sollemnitusque}
-                           deo
-                           litat
-                           laudem
-                           lubens. \&
-                      \stanza ... in
-                           sedes
-                           conlocat
-                           se
-                           regias: &
-                     Clytemnestra
-                           iuxtim
-                           ,
-                           tertias
-                           natæ
-                           occupant. \&
-                      \stanza 
-                     Ipsus
-                           se
-                           in
-                           terram
-                           saucius
-                           fligit
-                           cadens. \&
-                      \stanza Quin
-                           quod
-                           parere
-                           mihi
-                           uos
-                           maiestas
-                           mea &
-                     procat
-                           ,
-                           toleratis
-                           temploque
-                           {temploque}
-                           hanc
-                           deducitis
-                           ? \&
-                      \stanza 
-                     Iamne
-                           {Iamne}
-                           oculos
-                           specie
-                           lætauisti
-                           optabili
-                           ? \&
+                      \&
                   
                \endnumbering
 		\end{Leftside}
@@ -214,29 +2389,15 @@ series={}
 			\beginnumbering
 			\numberstanzafalse
                   
-                      \stanza En réalité, quand Pergame fût &enflammée on eût partagé équitablement &
-                     le butin entre les participants. \&
-                      \stanza Alors, voici la horde enjouée de Nérée, avec son bec aplati, &
-                     qui tourne autour de la flotte en s’amusant des chants [des
-                           marins]... \&
                       \stanza 
-                     Que personne parmi vous ne rumine [ses pensées] à la femme. \&
-                      \stanza 
-                     Et la solennité extatique offre un éloge au dieu. \&
-                      \stanza . . .il s’assied sur le trône royal : &
-                     à côté Clytemnestre, ses filles occupent les troisièmes [places]. \&
-                      \stanza 
-                     Le blessé se heurte lui-même en tombant à terre. \&
-                      \stanza Comment? Vous ne supportez pas que ma majesté, &
-                     vous demande de m’obéir ? Pourquoi n’emmenez-vous pas celle-ci au
-                           sanctuaire ? \&
-                      \stanza 
-                     N’as-tu pas désormais contenté tes yeux par cette vision convoitée ? \&
+                      \&
                   
                \endnumbering
 		\end{Rightside}
-              \end{pairs}
+            \end{pairs}
 	\Columns
-            
-          
+         
+
+
+
       \end{document}
