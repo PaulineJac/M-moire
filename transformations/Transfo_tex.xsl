@@ -180,11 +180,12 @@ series={}
     </xsl:template>
     <xsl:template match="lg[@type = 'stanza']">
         <xsl:text> \stanza </xsl:text>
-        <xsl:if test="descendant::div[@type = 'latino_scriptum']"><!-- Ne fonctionne pas... -->
+        <xsl:if test="ancestor::div[@type = 'latino_scriptum']">
             <xsl:text>\ledsidenote{\color{gray}{\textbf{</xsl:text>
             <xsl:value-of select="@source"/>
             <xsl:text>\vspace{-0,5cm}}}}</xsl:text>
         </xsl:if> 
+        <xsl:if test="stage"> <xsl:value-of select="stage"/><xsl:text> &amp; &#10;</xsl:text></xsl:if>
         <xsl:for-each select="./l">
             <xsl:choose>
                 <xsl:when test="position()=last()">
@@ -192,15 +193,11 @@ series={}
                      </xsl:text><xsl:apply-templates/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:apply-templates/><xsl:text> &amp;</xsl:text>
+                    <xsl:apply-templates/><xsl:text> &amp; </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
         <xsl:text> \&amp;</xsl:text>
-    </xsl:template>
-    <xsl:template match="stage">
-        <xsl:apply-templates/>
-        <xsl:text> &amp;</xsl:text>
     </xsl:template>
     <xsl:template match="note">
         <xsl:text>\footcite{</xsl:text>

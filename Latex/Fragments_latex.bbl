@@ -1,0 +1,56 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{TrRF_I_2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8aa392bd193d0ea4ca62299b7a4c0475}{%
+           family={Schauer},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {G{ö}ttingen}%
+      }
+      \list{publisher}{1}{%
+        {Vandenhoeck und Ruprecht}%
+      }
+      \strng{namehash}{8aa392bd193d0ea4ca62299b7a4c0475}
+      \strng{fullhash}{8aa392bd193d0ea4ca62299b7a4c0475}
+      \strng{bibnamehash}{8aa392bd193d0ea4ca62299b7a4c0475}
+      \strng{authorbibnamehash}{8aa392bd193d0ea4ca62299b7a4c0475}
+      \strng{authornamehash}{8aa392bd193d0ea4ca62299b7a4c0475}
+      \strng{authorfullhash}{8aa392bd193d0ea4ca62299b7a4c0475}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Tragicorum Romanorum Fragmenta}
+      \field{title}{Livius Andronicus, Naevius, Tragici Minores, Fragmenta Adespota}
+      \field{volume}{I}
+      \field{year}{2012}
+      \keyw{primaire}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
