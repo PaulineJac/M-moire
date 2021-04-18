@@ -11,6 +11,8 @@
         </xsl:template>
     <xsl:template match="argument"/> 
     <xsl:template match="div[@type = 'translatio']"/> 
+    <xsl:template match="w[@pos = 'PUNC']"/> 
+    <xsl:template match="w[@pos = 'OUT']"/> 
     <xsl:template match="p"/> 
     <xsl:template match="head"/> 
 </xsl:stylesheet>
