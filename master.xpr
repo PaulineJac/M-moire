@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Fragments_XML</String>
+                                        <String>Fragments_TEX</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

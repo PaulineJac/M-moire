@@ -1799,10 +1799,6 @@
       <w lemma="mitisco" pos="VER" msd="Mood=Inf|Tense=Pres|Voice=Act">mitiscere</w>
       <w lemma="animus" pos="NOMcom" msd="Case=Acc|Numb=Sing">animum</w>
       <w lemma="qui1" pos="PROrel" msd="Case=Acc|Numb=Plur|Gend=Fem">quæ</w>
-      
-      
-      
-      
       <w lemma="{" pos="PUNC" msd="MORPH=empty">{</w>
       <w lemma="et2" pos="CONcoo" msd="MORPH=empty">et</w>
       <w lemma="}" pos="PUNC" msd="MORPH=empty">}</w>
