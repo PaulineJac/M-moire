@@ -19,6 +19,71 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Dangel}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=11dda53367a4f899019d1a3258de6ca9}{%
+           family={Dangel},
+           familyi={D\bibinitperiod},
+           given={Jacqueline},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Les Belles Lettres}%
+      }
+      \strng{namehash}{11dda53367a4f899019d1a3258de6ca9}
+      \strng{fullhash}{11dda53367a4f899019d1a3258de6ca9}
+      \strng{bibnamehash}{11dda53367a4f899019d1a3258de6ca9}
+      \strng{authorbibnamehash}{11dda53367a4f899019d1a3258de6ca9}
+      \strng{authornamehash}{11dda53367a4f899019d1a3258de6ca9}
+      \strng{authorfullhash}{11dda53367a4f899019d1a3258de6ca9}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Accius: Oeuvres (fragments)}
+      \field{year}{1995}
+      \keyw{primaire}
+    \endentry
+    \entry{EnniusLoeb}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0976520f634aa084c41668cdda53b1df}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Sander},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eed5046a3f9d7af039a9900057543875}{%
+           family={Manuwald},
+           familyi={M\bibinitperiod},
+           given={Gesine},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts ; London, England}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press : Loeb Classical Library}%
+      }
+      \strng{namehash}{c946a7d44f1050eca24e18290d097d1c}
+      \strng{fullhash}{c946a7d44f1050eca24e18290d097d1c}
+      \strng{bibnamehash}{c946a7d44f1050eca24e18290d097d1c}
+      \strng{authorbibnamehash}{c946a7d44f1050eca24e18290d097d1c}
+      \strng{authornamehash}{c946a7d44f1050eca24e18290d097d1c}
+      \strng{authorfullhash}{c946a7d44f1050eca24e18290d097d1c}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fragmentary republican latin, Ennius : Dramatic Fragments ; minor works}
+      \field{volume}{II}
+      \field{year}{2018}
+      \keyw{primaire}
+    \endentry
     \entry{TrRF_I_2012}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8aa392bd193d0ea4ca62299b7a4c0475}{%
@@ -50,7 +115,67 @@
       \field{year}{2012}
       \keyw{primaire}
     \endentry
+    \entry{SchierlPaca}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd7aacb5a97f9cfd97a297d793a98770}{%
+           family={Schierl},
+           familyi={S\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{fd7aacb5a97f9cfd97a297d793a98770}
+      \strng{fullhash}{fd7aacb5a97f9cfd97a297d793a98770}
+      \strng{bibnamehash}{fd7aacb5a97f9cfd97a297d793a98770}
+      \strng{authorbibnamehash}{fd7aacb5a97f9cfd97a297d793a98770}
+      \strng{authornamehash}{fd7aacb5a97f9cfd97a297d793a98770}
+      \strng{authorfullhash}{fd7aacb5a97f9cfd97a297d793a98770}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Die Trag{ö}dien des Pacuvius}
+      \field{year}{2006}
+      \keyw{primaire}
+    \endentry
+    \entry{SpaltenNaevius}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=184e92d99159f4770c4d4b92fc4aefdd}{%
+           family={Spaltenstein},
+           familyi={S\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Bruxelle}%
+      }
+      \list{publisher}{1}{%
+        {Collection Latomus}%
+      }
+      \strng{namehash}{184e92d99159f4770c4d4b92fc4aefdd}
+      \strng{fullhash}{184e92d99159f4770c4d4b92fc4aefdd}
+      \strng{bibnamehash}{184e92d99159f4770c4d4b92fc4aefdd}
+      \strng{authorbibnamehash}{184e92d99159f4770c4d4b92fc4aefdd}
+      \strng{authornamehash}{184e92d99159f4770c4d4b92fc4aefdd}
+      \strng{authorfullhash}{184e92d99159f4770c4d4b92fc4aefdd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Commentaire des fragments dramatiques de Naevius}
+      \field{year}{2014}
+      \keyw{primaire}
+    \endentry
   \enddatalist
+  \missing{p.41}
+  \missing{voir\cite {EnniusLoeb}}
 \endrefsection
 \endinput
 
