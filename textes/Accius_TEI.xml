@@ -1929,6 +1929,9 @@
       <w lemma="taenia" pos="NOMcom" msd="Case=Abl|Numb=Plur">tæniis</w>
       <w lemma="sed" pos="CONcoo" msd="MORPH=empty">Sed</w>
       <w lemma="quidam" pos="PROind" msd="Case=Acc|Numb=Plur|Gend=Masc">quesdam</w>
+      
+      
+      
       <w lemma="inclutus"
          pos="ADJqua"
          msd="Case=Abl|Numb=Sing|Gend=Masc|Deg=Pos">Inclute</w>
@@ -2730,7 +2733,7 @@
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
-      <w lemma="numquam" pos="ADVneg" msd="MORPH=empty">numquam</w>
+       <w lemma="numquam" pos="ADVneg" msd="MORPH=empty">numquam</w>
       <w lemma="sum1"
          pos="VER"
          msd="Numb=Sing|Mood=Ind|Tense=Fut|Voice=Act|Person=3">erit</w>
@@ -4496,7 +4499,6 @@
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
-      <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="frux" pos="NOMcom" msd="Case=Dat|Numb=Sing">frugis</w>
       <w lemma="prohibeo"
          pos="VER"
@@ -4999,8 +5001,7 @@
       <w lemma="amburo" pos="VER" msd="Case=Nom|Numb=Sing|Gend=Masc">amburi</w>
       <w lemma="uideo"
          pos="VER"
-         msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=2">vides</w>
-      <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
+         msd="Numb=Sing|Mood=Ind|Tense=Pres|Voice=Act|Person=2">vides</w><w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="." pos="PUNC" msd="MORPH=empty">.</w>
       <w lemma="fere" pos="ADV" msd="Deg=Pos">fere</w>
@@ -5364,8 +5365,7 @@
          msd="Numb=Sing|Mood=Imp|Tense=Pres|Voice=Act|Person=2">crepera</w>
       <w lemma="comperio"
          pos="VER"
-         msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=1">comperi</w>
-      <w lemma="o" pos="INJ" msd="MORPH=empty">O</w>
+         msd="Numb=Sing|Mood=Ind|Tense=Perf|Voice=Act|Person=1">comperi</w><w lemma="o" pos="INJ" msd="MORPH=empty">O</w>
       <w lemma="quis1" pos="PROrel" msd="Case=Abl|Numb=Plur|Gend=Com">quibus</w>
       <w lemma="oculus" pos="NOMcom" msd="Case=Abl|Numb=Plur">oculis</w>
       <w lemma="quisquam" pos="PROind" msd="Case=Nom|Numb=Sing|Gend=MascFem">quisquam</w>
@@ -5677,6 +5677,11 @@
          msd="Case=Acc|Numb=Plur|Gend=Fem|Deg=Pos">rapidas</w>
       <w lemma="unda" pos="NOMcom" msd="Case=Acc|Numb=Plur">undas</w>
       <w lemma="Inachus" pos="NOMpro" msd="Case=Gen|Numb=Sing">Inachi</w>
+      
+      
+      
+      
+      
       <w lemma="ut1" pos="ADVrel" msd="MORPH=empty">Ut</w>
       <w lemma="tam" pos="ADV" msd="Deg=Pos">tam</w>
       <w lemma="obstinatus"
