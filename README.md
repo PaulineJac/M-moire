@@ -1,5 +1,5 @@
 # Les tragédies latines de l'époque républicaine :# 
-# # étude stylométrique d'un corpus fragmentaire # # 
+## étude stylométrique d'un corpus fragmentaire ## 
 
 Pauline Jacsont
 
